@@ -1,0 +1,18 @@
+---
+---
+@charset "utf-8";
+
+@import "vendor/normalize";
+@import "vendor/photoswipe";
+
+$accent-colour: #47332a; // should contrast well with white
+
+@import "header";
+
+@import "general";
+@import "body";
+@import "note";
+@import "footer";
+
+
+@import "mobile";

@@ -1,0 +1,38 @@
+/*
+ * General
+ */
+
+// Set font family
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+.invisible { display: none; }
+
+/* Tab Skip */
+.skip-to-content {
+	height: 1px;
+	left: -25565vw;
+	overflow: hidden;
+	position: absolute;
+	top: 1em;
+	width: 1px;
+	z-index: -1337;
+
+	&:focus-visible, &:active {
+		background: $accent-colour;
+		border: 3px solid white;
+		border-radius: 15px;
+		color: white;
+		font-size: 1rem;
+		height: auto;
+		left: calc(50vw - 6rem);
+		margin: 1rem .5rem;
+		overflow: auto;
+		padding: .5rem 1rem;
+		text-align: center;
+		text-shadow: 1px 0 10px rgba(0, 0, 0, .5);
+		width: auto;
+		z-index: 6969;
+	}
+}

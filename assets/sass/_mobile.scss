@@ -1,0 +1,33 @@
+/*
+ * Mobile
+ */
+
+@media screen and (max-width: 640px) {
+	nav {
+		background: rgba(0, 0, 0, 0.5);
+		display: block;
+		width: 100%;
+
+		a {
+			color: inherit;
+		}
+
+		ul {
+			order: 2;
+			width: initial;
+		}
+
+		.navbar-logo {
+			order: 1;
+			top: 0;
+		}
+
+		.cta {
+			order: 3;
+			padding: 0 0 0 1em;
+			text-align: left;
+			width: initial;
+		}
+
+	}
+}

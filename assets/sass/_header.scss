@@ -1,0 +1,53 @@
+/*
+ * Header
+ */
+
+nav {
+	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3), transparent);
+	color: white;
+	display: flex;
+	font-size: 1.25em;
+	justify-content: space-between;
+	max-width: 100%;
+	position: fixed;
+	text-transform: uppercase;
+	z-index: 69;
+
+	a {
+		color: inherit;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		order: 1;
+		padding-left: 1em;
+		width: calc(30vw - 1em);
+		
+		li {
+			display: inline-block;
+		}
+	}
+
+	.navbar-logo {
+		order: 2;
+		position: relative;
+		text-align: center;
+		top: 2em;
+		width: 40vw;
+
+		img {
+			display: inline-block;
+			height: 9em;
+		}
+	}
+
+	.cta {
+		padding-right: 1em;
+		order: 3;
+		text-align: right;
+		width: calc(30vw - 1em);
+	}
+
+}

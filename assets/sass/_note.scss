@@ -1,0 +1,46 @@
+/*
+ * Note
+ */
+.note {
+	display: flex;
+	padding: 1.25em;
+
+	.close-button {
+		margin-left: auto;
+	}
+
+	.note-title {
+		font-size: 1.2em;
+		line-height: 1.2em;
+		margin-bottom: 0.25em;
+		vertical-align: text-top;
+	}
+	
+	.note-icon {
+		margin-right: 0.25em;
+	}
+
+	a {
+		fill: inherit;
+		color: inherit;
+	}
+
+	&.info {
+		background: linear-gradient(#D2ECF9, #B2CCD9);
+		fill: #093044;
+		color: #093044;
+	}
+
+	&.alert {
+		background: linear-gradient(#F9D2D2, #D9B2B2);
+		fill: #440909;
+		color: #440909;
+	}
+
+	&.warn {
+		background: linear-gradient(#F9F6D2, #D9D6B2);
+		fill: #404409;
+		color: #404409;
+	}
+
+}

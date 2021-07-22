@@ -1,0 +1,41 @@
+<div class="note {{ include.type }}">
+	{% comment %}
+		include.type:
+			info: blue background, circle with i inside
+			alert: red background, diamond with ! inside
+			warn: yellow background, triangle with ! inside
+
+		include.title:
+			self explanatory, can insert raw html, but will be bolded
+
+		include.content:
+			also explanatory, can insert raw html
+	{% endcomment %}
+
+	<div class="note-icon">
+		{% if include.type == "info" %}
+			{% include icon.html icon="icon-info" class="note-icon" %}
+		{% endif %}
+
+		{% if include.type == "alert" %}
+			{% include icon.html icon="icon-danger" class="note-icon" %}
+		{% endif %}
+
+		{% if include.type == "warn" %}
+			{% include icon.html icon="icon-warning" class="note-icon" %}
+		{% endif %}
+	</div>
+
+	<div>
+		<strong class="note-title">{{ include.title }}</strong><br>
+		
+		<span class="note-content">{{ include.content }}</span>
+	</div>
+
+	<div class="close-button">
+		<a onclick="$(this).closest('.note.{{ include.type }}').remove();" href="#" title="Close">
+			{% include icon.html icon="icon-x" %}
+		 </a>
+	</div>
+
+</div>
