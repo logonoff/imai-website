@@ -2,13 +2,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% seo %}
+
+  <meta name="keywords" content="japanese, restaurant, georgetown, authentic, ontario, canada, ramen, sushi, sashimi" />
+  <meta itemprop="image" content="{{ "/assets/images/logo.png" | prepend: site.url }}" />
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
 
   <link rel="dns-prefetch" href="https://fonts.googleapis.com/" crossorigin="anonymous"/>
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin="anonymous">
   
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
@@ -16,6 +20,5 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js" integrity="sha512-4GsgvzFFry8SXj8c/VcCjjEZ+du9RZp/627AEQRVLatx6d60AUnUYXg0lGn538p44cgRs5E2GXq+8IOetJ+6ow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  {% feed_meta %}
+  <script src="{{ "/assets/js/main.js" | prepend: site.url }}"></script>
 </head>

@@ -6,6 +6,7 @@
 	nav {
 		background: rgba(0, 0, 0, 0.5);
 		display: block;
+		padding-bottom: 0.5em;
 		width: 100%;
 
 		a {
@@ -20,6 +21,11 @@
 		.navbar-logo {
 			order: 1;
 			top: 0;
+			
+			img {
+				max-height: 4em;
+				padding-left: 1em;
+			}
 		}
 
 		.cta {
@@ -30,4 +36,11 @@
 		}
 
 	}
+
+	.gallery {
+		img {
+			max-height: 10em;
+		}
+	}
+	
 }

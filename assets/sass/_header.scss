@@ -2,6 +2,8 @@
  * Header
  */
 
+$edge-space: 1.5em; // margin on the sides
+
 nav {
 	align-items: center;
 	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3), transparent);
@@ -9,45 +11,71 @@ nav {
 	display: flex;
 	font-size: 1.25em;
 	justify-content: space-between;
-	max-width: 100%;
-	position: fixed;
-	text-transform: uppercase;
+	padding-top: 1em;
+	position: absolute;
+	// text-transform: uppercase;
+	width: 100%;
 	z-index: 69;
 
 	a {
 		color: inherit;
+		text-decoration: none;
 	}
 
+	// left size -- links
 	ul {
 		list-style-type: none;
 		margin: 0;
 		order: 1;
-		padding-left: 1em;
-		width: calc(30vw - 1em);
+		padding-left: $edge-space;
+		width: calc(30vw - #{$edge-space});
 		
+		&:hover > li {
+			opacity: 0.6;
+
+			&.current {
+				opacity: 0.8;
+				text-decoration: inherit;
+			}
+
+			a {
+				color: white;
+			}
+		}
+
 		li {
 			display: inline-block;
+			margin-right: 1em;
+			transition: opacity .125s ease;
+
+			&:hover, &.current, &.current:hover {
+				opacity: 1;
+				text-decoration: underline;
+			}
 		}
 	}
 
+	// imai logo
 	.navbar-logo {
 		order: 2;
 		position: relative;
 		text-align: center;
 		top: 2em;
-		width: 40vw;
+		width: calc(40vw);
 
 		img {
 			display: inline-block;
-			height: 9em;
+			max-height: 8em;
+			max-width: 100%;
 		}
 	}
 
+	// right size -- i.e. phone number (or a future order now button)
 	.cta {
-		padding-right: 1em;
+		padding-right: $edge-space;
 		order: 3;
 		text-align: right;
-		width: calc(30vw - 1em);
+		width: calc(30vw - #{$edge-space});
 	}
 
 }

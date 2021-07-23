@@ -1,12 +1,17 @@
 ---
+style: compressed
 ---
+
 @charset "utf-8";
 
 @import "vendor/normalize";
-@import "vendor/photoswipe";
+@import "vendor/bootstrap-grid";
 
-$accent-colour: #47332a; // should contrast well with white
+$accent-colour: #be9e5f; // should contrast well with white
 
+/*!
+ * IMAI Japanese Cuisine
+ */
 @import "header";
 
 @import "general";
@@ -14,5 +19,6 @@ $accent-colour: #47332a; // should contrast well with white
 @import "note";
 @import "footer";
 
-
 @import "mobile";
+
+@import "vendor/photoswipe";

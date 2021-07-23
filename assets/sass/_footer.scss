@@ -3,5 +3,13 @@
  */
 
 footer {
-	color: #343434;
+	background-color: #171717;
+	color: white;
+	padding: 1em 0;
+	width: 100%;
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
 }

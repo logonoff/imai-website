@@ -24,7 +24,7 @@ main {
 
 		h2 { 
 			margin: auto 0;
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 
 	}
@@ -33,13 +33,7 @@ main {
 		background-image: url("/assets/images/IMG_3475.jpg");
 	}
 
-
-	// Body
-	.flex {
-		display: flex;
-		margin: 0 auto;
-		padding: 1em;
-		max-width: 50em;
-		font-size: 1.25em;
+	img {
+		max-width: 100%;
 	}
 }

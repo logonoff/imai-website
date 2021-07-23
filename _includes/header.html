@@ -3,13 +3,25 @@
 <a href="#main" class="skip-to-content">Skip to Content</a>
 
 <nav>
-	<a class="navbar-logo" href="#"><img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | prepend: site.url }}"/></a>
+	<a class="navbar-logo" href="{{ "index.html" | prepend: node.baseurl }}"><img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | prepend: site.url }}"/></a>
 
 	<ul>
-		<li><a href="index.html">Home</a>&nbsp;</li>
-		<li><a href="menu.html">Menu</a>&nbsp;</li>
-		<li><a href="about.html">About Us</a>&nbsp;</li>
-		<li><a href="index.html#contact">Contact</a>&nbsp;</li>
+		{% assign sorted_pages = site.pages | sort:"ordering" %}
+
+		{% for node in sorted_pages %}
+			{% if node.ordering %}
+
+				<li {% if page.title == node.title %}class="current"{% endif %} >
+					<a href="{{ node.url | prepend: node.baseurl }}">
+						{{ node.title }}
+					</a>
+				</li>
+
+				&nbsp;
+
+			{% endif %}
+		{% endfor %}
+
 	</ul>
 
 	<div class="cta">

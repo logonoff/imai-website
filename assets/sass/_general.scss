@@ -3,11 +3,38 @@
  */
 
 // Set font family
-html {
+body {
 	font-family: "Roboto", sans-serif;
 }
 
-.invisible { display: none; }
+a {
+	&:hover {
+		color: $accent-colour;
+	}
+}
+
+// Photoswipe gallery
+.gallery {
+	// make thumbnails uniform in height
+	img {
+		max-height: 20em;
+		padding: 1em 1em 0 0;
+		float: left;
+	}
+
+	// hide captions until clicked on
+	figure { display: none; }
+
+	// Remove underline from photos in photoswipe gallery
+	a[data-size] {
+		text-decoration: none;
+	}
+}
+
+// Spacer
+.spacer {
+	height: 5em;
+}
 
 /* Tab Skip */
 .skip-to-content {
