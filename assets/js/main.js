@@ -12,9 +12,26 @@ $.fn.addSelfLink = function() {
 $(".js-self-link h2, .js-self-link h3").addSelfLink();
 
 // filter menu items
-$("#search").on("keyup", function() {
+$("#search-menu").on("keyup", function() {
 	var value = $(this).val().toLowerCase();
-	$("#menu .name").filter(function() {
-		$(this).closest(".dish").toggle($(this).text().toLowerCase().indexOf(value) > -1);
+	$("#menu .dish").filter(function() {
+		$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
 	}); 
+
+	// hide empty sections
+	jQuery.each($("#menu").children(), function() {
+		if ($("#" + $(this).closest('[id]').attr('id') + " .dish:not([style*='display: none'])").length) {
+			$(this).closest('[id]').show();
+		} else {
+			$(this).closest('[id]').hide();
+		}
+	});
+
+	// if nothing was returned, show a friendly message
+	if ($("#menu").innerHeight() === 0) {
+		$("#empty-msg").show();
+	} else {
+		$("#empty-msg").hide();
+	}
+
 });

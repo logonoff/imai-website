@@ -168,10 +168,9 @@ grill:
     price: $18.95
     description: Teriyaki Beef with Mixed Vegetables
 
-
-        Gintara $21.95
-        Grilled Marinated Black Cod with Mixed Vegetables
-
+#  - name: Gintara 
+#    price: $21.95
+#    description: Grilled Marinated Black Cod with Mixed Vegetables
 
   - name: Salmon Teriyaki
     price: $16.95
@@ -653,7 +652,6 @@ hand-rolls:
   - name: Yam
     price: $5.95
 
-
 sushi-sashimi:
   - name: All Sushi
     price: $27.95
@@ -669,7 +667,7 @@ sushi-sashimi:
 
   - name: All Sashimi
     price: $30.95
-    description: (Chefâ€™s Choice) (Daily Fresh) Twelve Pieces of Sashimi
+    description: (Chef's Choice) (Daily Fresh) Twelve Pieces of Sashimi
 
   - name: Sushi & Sashimi
     price: $31.95
@@ -798,4 +796,3 @@ lunch-special-sushi:
   - name: California Roll & 2 Hand Rolls&#58; Spicy Salmon
 
   - name: California Roll & 4 Assorted Sushi
-

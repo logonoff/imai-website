@@ -22,7 +22,31 @@
 
 #menu {
 	p {
-		margin-left: 1em;
+		margin-left: 1.1rem;
 	}
 }
 
+#search-menu {
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+input {
+	&[type="text"] {
+		background: linear-gradient(#F9F9F9, white);
+		border: 0;
+		border-radius: .2rem;
+		box-shadow: 0 0 0 1px #DADADA, 0 0 0 2px #B5B5B5;
+		font-family: inherit;
+		image-rendering: pixelated;
+		padding: .5em;
+		transition: .3s box-shadow ease;
+
+		&:hover { box-shadow: 0 0 0 1px #CECECE, 0 0 0 2px white; }
+
+		&:focus {
+			box-shadow: 0 0 0 1px $accent-colour, 0 0 0 2px $accent-colour, 0 0 0 0 inset $accent-colour;
+			outline: 1px solid white;
+		}
+	}
+}
