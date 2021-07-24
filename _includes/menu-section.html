@@ -1,0 +1,29 @@
+<section id="{{ include.id }}">
+	<details open>
+		<summary>
+			<h2 class="heading">{{ include.name }}</h2>
+			{% if include.subtitle.size > 0 %}
+				<p class="subtitle">{{ include.subtitle }}</p>
+			{% endif %}
+
+			<hr>
+		</summary>
+
+		<div class="row">
+			{% for dish in site.data.menu[include.id] %}
+				<div class="dish col-md-6 col-sm-6">
+					{% if dish.name.size > 0 %}
+						<span class="name">{{ dish.name }}</span>
+					{% endif %}
+					{% if dish.price.size > 0 %}
+						<span class="price">{{ dish.price }}</span>
+					{% endif %}
+					{% if dish.description.size > 0 %}
+						<div class="desc">{{ dish.description }}</div>
+					{% endif %}
+				</div>
+			{% endfor %}
+		</div>
+
+	</details>
+</section>

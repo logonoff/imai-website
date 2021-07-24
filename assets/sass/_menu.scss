@@ -1,0 +1,28 @@
+/*
+ * Menu
+ */
+.dish {
+	padding-bottom: 0.5em;
+
+	.name {
+		display: inline-block;
+		font-size: large;
+		width: 75%;
+	}
+
+	.price {
+		float: right;
+		width: 25%;
+	}
+
+	.desc {
+		width: 75%;
+	}
+}
+
+#menu {
+	p {
+		margin-left: 1em;
+	}
+}
+

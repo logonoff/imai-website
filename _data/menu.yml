@@ -1,0 +1,750 @@
+appetizer:
+  - name: Harumaki 2pcs
+    price: $2.75
+    description: Japanese Vegetable Spring Rolls
+
+#  - name: Home-Made Spring Rolls
+#    price: $3.95
+#    description: 2pcs
+
+  - name: Edamame
+    price: $6.25
+    description: Boiled Green Soy Beans
+
+  - name: Gyoza 4pcs
+    price: $6.25
+    description: Vegetable Dumplings
+
+  - name: Agedashi Tofu
+    price: $5.75
+    description: Deep Fried Bean Curd - 4 pcs
+
+  - name: Hiyayako Tofu
+    price: $4.25
+    description: Chilled Bean Curd Served With Ginger
+
+  - name: Ebi Fry 3pcs
+    price: $7.55
+    description: Three Breaded and Fried Japanese Style Shrimp
+
+  - name: Sushi 3pcs
+    price: $6.75
+    description: Three Pieces of Sushi (Chef's Choice Daily Fresh)
+
+  - name: Assorted Tempura
+    price: $8.95
+    description: 2 Shrimp & 3 Vegetable
+
+  - name: Toritarage
+    price: $8.95
+    description: Japanese Style Deep Fried Chicken Bits - 5 pcs
+
+#  - name: Toza Tofu
+#    price: $5.75
+#    description: Deep Fried Bean Curd Breaded with Shaved & Dried Bonito
+
+  - name: Yaki Tori
+    price: $8.95
+    description: Chicken Bits on Skewers
+
+  - name: Sashimi 5pcs
+    price: $9.25
+    description: Five Pieces of Sashimi (Chef's Choice Daily Fresh)
+
+  - name: Kaki Fry
+    price: $8.25
+    description: Breaded & Deep Fried Oysters Japanese Style
+
+  - name: Deep Fried Soft Shell Crab
+    price: $12.95
+    description: Crispy Soft Shell Crab - 4 pcs
+
+#  - name: Chuka Moliwase
+#    price: $10.95
+#    description: Marinated Mini Octopus &amp; Scallop on Seaweed
+
+  - name: Beef Sashimi 9pcs
+    price: $12.95
+    description: Thin AAA Striplion Beef with Spicy Radish, Ground Garlic, Green Onions & Ponzu Sauce
+
+  - name: Tuna Tataki 6 pcs
+    price: $12.95
+    description: Slightly Grilled & Sliced Spicy Radish, Onions, Garlic, Served with Ponzu Sauce
+
+  - name: Pan Fried Gyoza (6 pcs)
+    price: $9.75
+    description: Japanese Style (vegetable, pork) Dumplings
+
+  - name: Tonkatsu
+    price: $7.95
+    description: Deep Fried Pork Cutlet
+
+#  - name: Wonton Soup
+#    price: $6.95
+#    description: Wonton Soup
+
+  - name: Shrimp Tempura
+    price: $12.95
+    description: 5 pcs Shrimp
+
+  - name: Vegetable Tempura
+    price: $7.95
+    description: 5 pcs Assorted Vegetable
+
+salad:
+  - name: Hiyashi Seaweed Salad
+    price: $5.75
+    description: Marinated Seaweed
+
+#  - name: Smoked Duck Salad
+#    price: $8.95
+
+  - name: Green Salad
+    price: $6.25
+    description: Lettuce, Sliced Carrot & Cabbage
+
+  - name: Tofu Salad
+    price: $6.75
+    description: Lettuce, Sliced Carrot, Cabbage & Tofu
+
+  - name: Avocado Salad
+    price: $7.95
+    description: Lettuce, Sliced Carrot, Cabbage & Avocado
+
+  - name: Tobiko Salad
+    price: $8.95
+    description: Sliced Cucumber, Crab Meat, Tobiko, Mayo
+
+soup:
+  - name: Miso
+    price: $2.95
+    description: Tofu, seaweed, onion, sliced mushroom
+
+  - name: Mixed Mushroom
+    price: $4.75
+    description: Different kind of mushroom, seaweed, green onion)
+
+  - name: Shrimp
+    price: $5.50
+    description: 3 Shrimp, seaweed, green onion
+
+#  - name: Clams
+#    price: $4.95
+
+  - name: Assorted Seafood
+    price: $6.25
+    description: Different kinds of seafood
+
+  - name: Wonton Soup
+    price: $6.75
+    description: 6 pcs, pork & vegetable
+
+grill:
+  - name: Takoyaki 5 pcs
+    price: $7.25
+    description: BallShaped, Diced Octopus Breaded in Wheat Flour
+
+  - name: Stir Fried Vegetable
+    price: $10.95
+    description: Assorted Fresh Vegetable
+
+#  - name: Yaki Saba Half 
+#    price: $8.25
+#    description: Half Grilled Mackerel
+
+  - name: Sake Harami
+    price: $10.25
+    description: Grilled Salmon Belly
+
+  - name: Ika Sugata Yaki 1pc
+    price: $14.25
+    description: Grilled Whole Squid Served with Ginger Sauce
+
+  - name: Chicken Teriyaki
+    price: $12.95
+    description: Teriyaki Chicken Steak with Mixed Vegetables
+
+  - name: Steak Teriyaki
+    price: $18.95
+    description: Teriyaki Beef with Mixed Vegetables
+
+
+        Gintara $21.95
+        Grilled Marinated Black Cod with Mixed Vegetables
+
+
+  - name: Salmon Teriyaki
+    price: $16.95
+    description: Teriyaki Salmon Fillet with Mixed Vegetables
+
+  - name: Yaki Short Rib
+    price: $15.95
+    description: Grilled Tender Marinated Short Rib - 6 pcs
+
+  - name: Yasai Tempura Moliwase 14pcs
+    price: $14.95
+    description: Deep Fried Breaded Assorted Vegetables
+
+  - name: Tempura Moliwase 14pcs
+    price: $18.95
+    description: 7 Seafood & 7 Mix Vegetable
+
+steam:
+  - name: Chawamushi
+    price: $12.95
+    description: Steamed Seafood Egg Custard
+
+#  - name: Asari Sakemusi 
+#    price: $10.95
+#    description: Steamed Clams with Japanese Rice Wine Soup
+
+  - name: Tobimushi
+    price: $12.95
+    description: Broiled Assorted Seafood with Fish Broth
+
+#  - name: Sukiyaki 
+#    price: $12.95
+#    description: Broiled Tender Beef, Vegetables &amp; Mushroom in Sukiyaki Sauce.  Served with Rice
+
+  - name: Mushroom in Foil
+    price: $16.95
+    description: Broiled Assorted Mushroom in Foil with Japanese Style Taste
+
+rice:
+  - name: Plain Rice
+    price: $1.75
+
+  - name: Sushi Rice
+    price: $2.25
+
+  - name: Oyaku Don
+    price: $11.95
+    description: Diced Chicken & Egg on Top of the Rice
+
+  - name: Katsu Don
+    price: $12.95
+    description: Pork Cutlet & Egg on Top of the Rice
+
+  - name: Gyu Don
+    price: $12.95
+    description: Tender Beef & Egg on Top of the Rice
+
+  - name: Ten Don
+    price: $12.95
+    description: Tempura Shrimp, Vegetable & Egg on Top of the Rice
+
+  - name: Chicken Curry on Rice
+    price: $11.95
+    description: Broiled Assorted Mushroom in Foil with Japanese Style Taste
+
+  - name: Tonkatsu Curry on Rice
+    price: $12.95
+    description: Pork Cutlet & Potatoes On Rice
+
+#  - name: Vegetable Curry on Rice 
+#    price: $9.95
+
+  - name: Unagi Don
+    price: $17.95
+    description: BBQ Eel on Top of the Rice
+
+  - name: Chirashi Don
+    price: $17.95
+    description: Assorted Sashimi on Top of Sushi Rice
+
+  - name: Salmon Chirashi
+    price: $18.95
+    description: Salmon Sashimi on Top of Sushi Rice
+
+  - name: Japanese Style Fried Rice
+    price: $6.95
+    description: (Vegetable, Onion, Egg)
+
+noodles:
+  - name: Chicken Yaki Udon
+    price: $14.95
+    description: Grill Chicken Stir Fry With Rice Noodle
+
+  - name: Vegetable Ramen Noodle Soup
+    price: $11.95
+    description: Broccolli, Sprouts, Bamboo Shoot, Egg
+
+  - name: Japanese BBQ Pork Ramen Noodle Soup
+    price: $14.95
+    description: 2 pcs Pork, Broil Egg, Sprout, Bamboo Shoot
+
+  - name: Nabeyaki Udon
+    price: $16.95
+    description: Assorted Seafood Noodle Soup
+
+  - name: Tempura Udon Soup
+    price: $15.95
+    description: 2 Shrimp, 3 Vegetable On Udon
+
+  - name: Tonkatsu Ramen Soup
+    price: $15.95
+    description: Pork Cutlet, Sprouts On Ramen
+
+  - name: Extra BBQ Pork - 1 Slice
+    price: $2.50 each
+
+#  - name: Extra Chicken 
+#    price: $2.00
+
+sushi:
+  - name: Tuna - Maguro
+    price: 2 Sushi $6.95 <br> 3 Sashimi $9.95
+
+  - name: Yellowtail - Hamachi
+    price: 2 Sushi $7.95 <br> 3 Sashimi $10.95
+
+  - name: Salmon - Sake
+    price: 2 Sushi $5.95 <br> 3 Sashimi $8.95
+
+  - name: Butterfish - Ibodai
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+
+  - name: Albacore Tuna - Shiro Maguro
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+
+  - name: White Fish - Shiromi
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+
+  - name: Cuttlefish - Ika
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.55
+
+  - name: Tuna Belly - Toro
+    price: 2 Sushi $8.95 <br> 3 Sashimi Seasonal
+
+  - name: Uni
+    price: 2 Sushi $9.00 <br> 3 Sashimi $12.95
+
+  - name: Freshwater Eel - Unagi
+    price: 2 Sushi $6.95
+
+  - name: Boiled Shrimp - Ebi
+    price: 2 Sushi $5.95 <br> 3 Sashimi $6.95
+
+  - name: Crab Meat - Kanikama
+    price: 2 Sushi $5.25 <br> 3 Sashimi $5.95
+
+  - name: Raw Jumbo Sweet Shrimp - Da Ama Ebi
+    price: 2 Sushi $8.95 <br> 3 Sashimi $12.95
+
+  - name: Surf Clam - Hokkigai
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+
+  - name: Scallop - Hotategai
+    price: 2 Sushi $6.95 <br> 3 Sashimi $10.95
+
+  - name: Spicy Scallop - Spicy Hotategai
+    price: 2 Sushi $7.95
+
+  - name: Octopus - Tako
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.25
+
+  - name: Sea Urchin - Uni
+    price: 2 Sushi $9.00 <br> 3 Sashimi $12.95
+
+  - name: Herring Roe - Kazunoko
+    price: 2 Sushi $6.95 <br> 3 Sashimi $9.95
+
+  - name: Flying Fish Roe - Tobiko
+    price: 2 Sushi $5.95 <br> 3 Sashimi $9.55
+
+  - name: Smelt Roe - Masago
+    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+
+  - name: Egg - Tamago
+    price: 2 Sushi $4.25 <br> 3 Sashimi $5.50
+
+  - name: Bean Curd - Inari
+    price: 2 Sushi $4.25 <br> 3 Sashimi $4.95
+
+  - name: Avocado
+    price: 2 Sushi $4.25
+
+  - name: Seared Salmon
+    price: 2 Sushi $6.55
+
+  - name: Seared Tuna
+    price: 2 Sushi $7.55
+
+specrolls:
+  - name: Spring Blossom - 8pcs
+    price: $17.95
+    description: Shrimp Tempura, Fish Tempura, Onion, Fish Egg, Tempura Bits with Spicy Mayonnaise
+
+  - name: Hot Summer - 8pcs
+    price: $16.95
+    description: Avocado, Crab Meat, Cucumber, Onion, Fish Egg, Deep Fried with House Special Mayonnaise
+
+  - name: Cool Autumn - 8pcs
+    price: $16.95
+    description: Avocado, Cucumber, Salmon Skin, Eel & Dried Shredded Fish
+
+  - name: Winter Snow - 8pcs
+    price: $19.95
+    description: Mango, Avocado, Fish Egg, Onion, Salmon and Whitefish on Top, Lightly Grilled
+
+pizza:
+  - name: Vegetable
+    price: $8.25
+    description: Avocado, Onions, Cucumber, Pickles & Spicy Mayonnaise
+
+  - name: Assorted Fish
+    price: $9.95
+    description: Salmon, Tuna, Whitefish, Onions, Spicy Mayonnaise & Fish Egg
+
+  - name: Salmon
+    price: $10.95
+    description: Salmon, Onions,Spicy Mayonnaise & Fish Egg
+
+  - name: Tuna
+    price: $11.95
+    description: Tuna, Onions, Spicy Mayonnaise & Fish Egg
+
+  - name: Crab Meat
+    price: $8.95
+    description: Crab Meat, Spicy Mayonnaise, Onions & Fish Egg
+
+  - name: California
+    price: $9.95
+    description: Avocado, Crab Meat, Cucumber, Onions, Spicy Mayonnaise & Fish Egg
+
+special-rolls:
+  - name: Hawaii Roll
+    price: $7.75
+    description: Crab Meat, Fish Egg & Mango
+
+  - name: Salmon Skin Roll
+    price: $7.75
+    description: Salmon Skin, Cucumber & Avocado
+
+  - name: Crispy Roll
+    price: $7.75
+    description: Fish Egg, Crispy Crumb & Cucumber
+
+  - name: Veggie Roll
+    price: $7.75
+    description: Lettuce, Pickled Radish & Cucumber
+
+  - name: Sweet Potato Roll
+    price: $7.75
+    description: Tempura Sweet Potato
+
+  - name: Spicy Tuna Roll
+    price: $8.95
+    description: Tuna, Crispy Crumbs & Spicy Mayonnaise
+
+  - name: Spicy Salmon Roll
+    price: $8.95
+    description: Salmon, Crispy Crumbs & Spicy Mayonnaise
+
+  - name: Spicy Kani Roll
+    price: $8.25
+    description: Crab Meat, Crispy Crumbs & Spicy Mayonnaise
+
+  - name: Unagi Roll
+    price: $9.95
+    description: BBQ Eel & Cucumber
+
+  - name: Philadelphia Roll
+    price: $9.95
+    description: Cream Cheese, Cucumber & Smoked Salmon
+
+  - name: Boston Roll
+    price: $9.95
+    description: Salmon, Avocado, Fish Egg & Onion
+
+  - name: Rainbow Roll
+    price: $11.95
+    description: Crab Meat, Avocado, Cucumber, Salmon, Tuna, BBQ Eel, Shrimp & Whitefish
+
+  - name: Dynamite Roll
+    price: $11.95
+    description: Shrimp Tempura, Fish Egg, Spicy Mayonnaise & Avocado
+
+  - name: Tempura Roll
+    price: $11.95
+    description: Shrimp Tempura, Cucumber, Avocado & Crab Meat
+
+  - name: Spider Roll
+    price: $16.95
+    description: Soft Shell Crab, Avocado, Cucumber, Crab Meat & Fish Egg
+
+  - name: Green Dragon Roll
+    price: $15.95
+    description: Shrimp Tempura, Avocado, Crab Meat, Cucumber & Fish Egg
+
+  - name: Black Dragon Roll
+    price: $18.95
+    description: Shrimp Tempura, Avocado, Crab Meat, Cucumber & BBQ Eel
+
+  - name: Red Dragon Roll
+    price: $16.95
+    description: Shrimp Tempura, Avocado, Crab Meat, Cucumber & Salmon
+
+  - name: Spicy Scallop Roll
+    price: $9.25
+
+  - name: Spicy California Roll
+    price: $7.25
+
+  - name: Salad Roll
+    price: $9.95
+    description: Wrap with cucumber, no rice
+
+traditional-rolls:
+  - name: Avocado Roll
+    price: $5.65
+
+  - name: Cucumber Roll
+    price: $4.75
+
+  - name: Radish Roll
+    price: $4.50
+
+  - name: Egg Roll
+    price: $4.50
+
+  - name: Crab Meat Roll
+    price: $4.75
+
+  - name: Tuna Roll
+    price: $7.25
+
+  - name: Salmon Roll
+    price: $6.95
+
+  - name: Avocado & Cucumber Roll
+    price: $5.95
+
+  - name: Salmon & Avocado Roll
+    price: $7.65
+
+  - name: Tuna & Avocado Roll
+    price: $8.65
+
+  - name: Futomaki
+    price: $8.95
+
+  - name: California Roll
+    price: $6.25
+
+  - name: Inari Roll
+    price: $4.50
+
+  - name: Negi Hamachi Roll
+    price: $8.25
+
+hand-rolls:
+  - name: Avocado
+    price: $4.25
+
+  - name: Radish
+    price: $3.95
+
+  - name: Tamago
+    price: $3.95
+
+  - name: Cucumber
+    price: $3.95
+
+  - name: Avocado & Cucumber
+    price: $4.25
+
+  - name: Salmon
+    price: $4.65
+
+  - name: Tuna
+    price: $5.25
+
+  - name: Kani
+    price: $3.95
+
+  - name: Salmon & Avocado
+    price: $5.75
+
+  - name: Tuna & Avocado
+    price: $6.55
+
+  - name: California
+    price: $4.95
+
+  - name: Salmon Skin
+    price: $5.95
+
+  - name: Dynamite
+    price: $7.25
+
+  - name: Tempura
+    price: $7.25
+
+  - name: Spicy Salmon
+    price: $6.95
+
+  - name: Spicy Kani
+    price: $6.25
+
+  - name: Spicy Tuna
+    price: $7.25
+
+  - name: Spicy California
+    price: $5.95
+
+  - name: Negi Hamachi
+    price: $6.95
+
+  - name: Unagi
+    price: $6.95
+
+  - name: Yam
+    price: $5.95
+
+
+sushi-sashimi:
+  - name: All Sushi
+    price: $27.95
+    description: (Chef's Choice) (Daily Fresh) Twelve Pieces of Different Kinds of Sushi
+
+  - name: Sushi & Maki
+    price: $27.95
+    description: (Daily Fresh) Five Pieces of Sushi, Six Pieces of California Roll, Three Pieces of Tuna Roll & Three Pieces of Salmon Roll
+
+  - name: Sushi & Dragon
+    price: $28.95
+    description: (Daily Fresh) Eight Pieces of Green Dragon Roll & Five Pieces Sushi
+
+  - name: All Sashimi
+    price: $30.95
+    description: (Chefâ€™s Choice) (Daily Fresh) Twelve Pieces of Sashimi
+
+  - name: Sushi & Sashimi
+    price: $31.95
+    description: (Daily Fresh) Eight Pieces Sushi & Eight Pieces Sashimi
+
+  - name: Sushi, Sashimi & Maki
+    price: $36.95
+    description: (Daily Fresh) Four Pieces of Sushi, Six Pieces of California Roll & Eight Pieces Sashimi
+
+  - name: Salmon Special Set Course
+    price: $30.95
+
+tradcourses:
+  - name: Curry Chicken
+    price: $19.00
+
+  - name: Curry Ton-Katzu
+    price: $20.00
+
+  - name: Pork Cutlet
+    price: $19.00
+
+  - name: Chicken Teriyaki
+    price: $19.00
+
+  - name: Steak Teriyaki
+    price: $26.00
+
+  - name: Salmon Teriyaki
+    price: $22.00
+
+  - name: BBQ Eel
+    price: $23.00
+
+noodlecourses:
+  - name: Pan Fried Dumpling 6 pcs
+    price: $19.95
+
+  - name: Tonkatsu
+    price: $21.00
+
+  - name: Tempura
+    price: $22.00
+
+dessert:
+  - name: Ice Cream
+    price: $3.25
+
+  - name: Tempura Cheese Cake
+    price: $5.50
+
+  - name: Mocha Mousse Cake
+    price: $2.95
+
+  - name: Raspberry Mousse Cake
+    price: $2.95
+
+  - name: Mango Mousse Cake
+    price: $2.95
+
+#  - name: Coconut Mousse Cake 
+#    price: $4.75
+        
+#  - name: Berryccino 
+#    price: $4.75
+        
+#  - name: Chococcino 
+#    price: $4.75
+        
+#  - name: Mangoccino 
+#    price: $4.75
+        
+#  - name: Fresh Fruit Platter  
+#    price: L-$15.95 S-$8.50
+
+sscombo:
+  - name: 18 Pieces Sashimi
+    price: $29.95
+
+  - name: 30 Pieces Sashimi
+    price: $45.00
+
+  - name: 60 Pieces Sashimi
+    price: $79.95
+
+  - name: 32 Pieces Sushi & Maki
+    price: $39.95
+
+  - name: 50 Pieces Sushi & Maki
+    price: $56.95
+
+  - name: 32 Pieces Sushi, Sashimi & Maki
+    price: $42.95
+
+  - name: 45 Pieces Sushi, Sashimi & Maki
+    price: $59.95
+
+  - name: 15 Pieces Salmon Sashimi
+    price: $30.95
+
+  - name: 30 Pieces Sushi
+    price: $42.95
+
+stray:
+  - name: 80 Pieces Sushi and Maki
+    price: $89.95
+
+  - name: 120 Pieces Sushi and Maki
+    price: $128.95
+
+  - name: 150 Pieces Sushi and Maki
+    price: $159.95
+
+lunch-special-kitchen:
+  - name: Chicken Teriyaki
+
+  - name: Japanese Style Pork Cutlets
+
+  - name: Tempura
+
+  - name: Dumpling Ramen
+
+lunch-special-sushi:
+  - name: Spicy Salmon Roll with 4pcs Sushi&#58; Crab, Egg, Salmon and Whitefish
+
+  - name: California Roll & 2 Hand Rolls&#58; Spicy Salmon
+
+  - name: California Roll & 4 Assorted Sushi
+
