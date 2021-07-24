@@ -293,82 +293,133 @@ noodles:
 
 sushi:
   - name: Tuna - Maguro
-    price: 2 Sushi $6.95 <br> 3 Sashimi $9.95
+    price: 2 Sushi&emsp;&emsp; $6.95 <br> 3 Sashimi&emsp; $9.95
 
   - name: Yellowtail - Hamachi
-    price: 2 Sushi $7.95 <br> 3 Sashimi $10.95
+    price: 2 Sushi&emsp;&emsp; $7.95 <br> 3 Sashimi&emsp; $10.95
 
   - name: Salmon - Sake
-    price: 2 Sushi $5.95 <br> 3 Sashimi $8.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $8.95
 
   - name: Butterfish - Ibodai
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.95
 
   - name: Albacore Tuna - Shiro Maguro
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.95
 
   - name: White Fish - Shiromi
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.95
+
+#  - name: Flounder - Hirame
+#    price: 2 Sushi&emsp;&emsp; $4.25 <br> 3 Sashimi&emsp; $6.25
+
+#  - name: Sea Bream - Kasugo
+#    price: 2 Sushi&emsp;&emsp; $4.25 <br> 3 Sashimi&emsp; $6.25
+
+#  - name: Sea Bass - Suzuki
+#    price: 2 Sushi&emsp;&emsp; $4.50 <br> 3 Sashimi&emsp; $6.55
 
   - name: Cuttlefish - Ika
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.55
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.55
+
+#  - name: Marinated Mackerel - Shime-Saba
+#    price: 2 Sushi&emsp;&emsp; $3.25 <br> 3 Sashimi&emsp; $5.00
 
   - name: Tuna Belly - Toro
-    price: 2 Sushi $8.95 <br> 3 Sashimi Seasonal
+    price: 2 Sushi&emsp;&emsp; $8.95 <br> 3 Sashimi&emsp; Seasonal
 
   - name: Uni
-    price: 2 Sushi $9.00 <br> 3 Sashimi $12.95
+    price: 2 Sushi&emsp;&emsp; $9.00 <br> 3 Sashimi&emsp; $12.95
+
+#  - name: Gizzard Shad - Kohada
+#    price: 2 Sushi&emsp;&emsp; $3.25 <br> 3 Sashimi&emsp; $5.00
 
   - name: Freshwater Eel - Unagi
-    price: 2 Sushi $6.95
+    price: 2 Sushi&emsp;&emsp; $6.95
+
+#  - name: Saltwater Eel - Anago
+#    price: 2 Sushi&emsp;&emsp; $4.55
+
+#  - name: Jack Mackerel - Aji
+#    price: 2 Sushi&emsp;&emsp; Seasonal 
 
   - name: Boiled Shrimp - Ebi
-    price: 2 Sushi $5.95 <br> 3 Sashimi $6.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $6.95
+
+#  - name: Raw Sweet Shrimp - Ama-Ebi
+#    price: 2 Sushi&emsp;&emsp; $3.25 <br> 3 Sashimi&emsp; $5.00
 
   - name: Crab Meat - Kanikama
-    price: 2 Sushi $5.25 <br> 3 Sashimi $5.95
+    price: 2 Sushi&emsp;&emsp; $5.25 <br> 3 Sashimi&emsp; $5.95
 
   - name: Raw Jumbo Sweet Shrimp - Da Ama Ebi
-    price: 2 Sushi $8.95 <br> 3 Sashimi $12.95
+    price: 2 Sushi&emsp;&emsp; $8.95 <br> 3 Sashimi&emsp; $12.95
 
   - name: Surf Clam - Hokkigai
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.95
 
   - name: Scallop - Hotategai
-    price: 2 Sushi $6.95 <br> 3 Sashimi $10.95
+    price: 2 Sushi&emsp;&emsp; $6.95 <br> 3 Sashimi&emsp; $10.95
 
   - name: Spicy Scallop - Spicy Hotategai
-    price: 2 Sushi $7.95
+    price: 2 Sushi&emsp;&emsp; $7.95
 
   - name: Octopus - Tako
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.25
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.25
 
   - name: Sea Urchin - Uni
-    price: 2 Sushi $9.00 <br> 3 Sashimi $12.95
+    price: 2 Sushi&emsp;&emsp; $9.00 <br> 3 Sashimi&emsp; $12.95
+
+#  - name: Salmon Roe - Ikura
+#    price: 2 Sushi&emsp;&emsp; $4.00 <br> 3 Sashimi&emsp; $8.95
 
   - name: Herring Roe - Kazunoko
-    price: 2 Sushi $6.95 <br> 3 Sashimi $9.95
+    price: 2 Sushi&emsp;&emsp; $6.95 <br> 3 Sashimi&emsp; $9.95
 
   - name: Flying Fish Roe - Tobiko
-    price: 2 Sushi $5.95 <br> 3 Sashimi $9.55
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $9.55
 
   - name: Smelt Roe - Masago
-    price: 2 Sushi $5.95 <br> 3 Sashimi $7.95
+    price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.95
+
+#  - name: Lobster - Ise Ebi
+#    price: 2 Sushi&emsp;&emsp; Seasonal 
+
+#  - name: Round Clam - Aoyagi
+#    price: 2 Sushi&emsp;&emsp; Seasonal
+
+#  - name: Cockle - Torigai
+#    price: 2 Sushi&emsp;&emsp; $3.75 <br> 3 Sashimi&emsp; $5.50
+
+#  - name: Mantis Shrimp - Shako
+#    price: 2 Sushi&emsp;&emsp; $3.95 <br> 3 Sashimi&emsp; $5.95
+
+#  - name: Horned Turban Shell - Tsubukai
+#    price: 2 Sushi&emsp;&emsp; Seasonal
+
+#  - name: Geoduck Clam - Mirugai
+#    price: 2 Sushi&emsp;&emsp; Seasonal
+
+#  - name: Alaska Pollock Roe - Mantaiko
+#    price: 2 Sushi&emsp;&emsp; Seasonal
+
+#  - name: Monkfish Liver - Ankimo
+#    price: 2 Sushi&emsp;&emsp; $3.95 <br> 3 Sashimi&emsp; $5.95
 
   - name: Egg - Tamago
-    price: 2 Sushi $4.25 <br> 3 Sashimi $5.50
+    price: 2 Sushi&emsp;&emsp; $4.25 <br> 3 Sashimi&emsp; $5.50
 
   - name: Bean Curd - Inari
-    price: 2 Sushi $4.25 <br> 3 Sashimi $4.95
+    price: 2 Sushi&emsp;&emsp; $4.25 <br> 3 Sashimi&emsp; $4.95
 
   - name: Avocado
-    price: 2 Sushi $4.25
+    price: 2 Sushi&emsp;&emsp; $4.25
 
   - name: Seared Salmon
-    price: 2 Sushi $6.55
+    price: 2 Sushi&emsp;&emsp; $6.55
 
   - name: Seared Tuna
-    price: 2 Sushi $7.55
+    price: 2 Sushi&emsp;&emsp; $7.55
 
 specrolls:
   - name: Spring Blossom - 8pcs
