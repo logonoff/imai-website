@@ -37,3 +37,21 @@ main {
 		max-width: 100%;
 	}
 }
+
+#open-hours {
+	caption-side: top;
+
+	caption {
+		color: black;
+	}
+
+	tr {
+		td {
+			padding: 0 2em 0.5em 0;
+
+			&:nth-child(2) {
+				font-weight: bold;
+			}
+		}
+	}
+}

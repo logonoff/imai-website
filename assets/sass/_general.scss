@@ -13,12 +13,25 @@ a {
 	}
 }
 
+summary {
+	.heading {
+		display: inline;
+	}
+}
+
+.heading {
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.2rem;
+	padding: 0.5rem 0;
+}
+
 // Photoswipe gallery
 .gallery {
 	// make thumbnails uniform in height
 	img {
 		max-height: 20em;
-		padding: 1em 1em 0 0;
+		padding: 1rem 1rem 0 0;
 		float: left;
 	}
 
@@ -33,7 +46,7 @@ a {
 
 // Spacer
 .spacer {
-	height: 5em;
+	height: 5rem;
 }
 
 /* Tab Skip */
@@ -61,5 +74,19 @@ a {
 		text-shadow: 1px 0 10px rgba(0, 0, 0, .5);
 		width: auto;
 		z-index: 6969;
+	}
+}
+
+/* Self link */
+h2, h3 {
+	.self-link {
+		opacity: 0;
+		transition: opacity .3s ease;
+
+		svg { height: .75em; }
+	}
+
+	&:hover {
+		.self-link { opacity: .5; }
 	}
 }

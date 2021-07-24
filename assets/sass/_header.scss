@@ -3,13 +3,14 @@
  */
 
 $edge-space: 1.5em; // margin on the sides
+$logo-width: 30vw; // space the center flex will be allowed
 
 nav {
 	align-items: center;
 	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3), transparent);
 	color: white;
 	display: flex;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	justify-content: space-between;
 	padding-top: 1em;
 	position: absolute;
@@ -28,7 +29,7 @@ nav {
 		margin: 0;
 		order: 1;
 		padding-left: $edge-space;
-		width: calc(30vw - #{$edge-space});
+		width: calc(#{(100vw - $logo-width) / 2} - #{$edge-space});
 		
 		&:hover > li {
 			opacity: 0.6;
@@ -45,7 +46,7 @@ nav {
 
 		li {
 			display: inline-block;
-			margin-right: 1em;
+			margin-right: 1rem;
 			transition: opacity .125s ease;
 
 			&:hover, &.current, &.current:hover {
@@ -61,11 +62,11 @@ nav {
 		position: relative;
 		text-align: center;
 		top: 2em;
-		width: calc(40vw);
+		width: $logo-width;
 
 		img {
 			display: inline-block;
-			max-height: 8em;
+			max-height: 8rem;
 			max-width: 100%;
 		}
 	}
@@ -75,7 +76,7 @@ nav {
 		padding-right: $edge-space;
 		order: 3;
 		text-align: right;
-		width: calc(30vw - #{$edge-space});
+		width: calc(#{(100vw - $logo-width) / 2} - #{$edge-space});
 	}
 
 }
