@@ -20,7 +20,7 @@ $("#search-menu").on("keyup", function() {
 
 	// hide empty sections
 	jQuery.each($("#menu").children(), function() {
-		if ($("#" + $(this).closest('[id]').attr('id') + " .dish:not([style*='display: none'])").length) {
+		if ($("#" + $(this).closest("section").attr("id") + " .dish:not([style*='display: none'])").length) {
 			$(this).closest('[id]').show();
 		} else {
 			$(this).closest('[id]').hide();
@@ -33,5 +33,4 @@ $("#search-menu").on("keyup", function() {
 	} else {
 		$("#empty-msg").hide();
 	}
-
 });

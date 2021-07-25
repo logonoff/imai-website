@@ -13,7 +13,16 @@
 			{% for dish in site.data.menu[include.id] %}
 				<div class="dish col-md-6 col-sm-6">
 					{% if dish.name.size > 0 %}
-						<span class="name">{{ dish.name }}</span>
+						<span class="name">
+							{{ dish.name }}
+							{% if dish.vegetarian %}
+								{% include icon.html icon="icon-leaf" class="vegetarian" title="This dish is vegetarian" %}
+							{% endif %}
+
+							{% if dish.spicy %}
+								{% include icon.html icon="icon-fire" class="spicy" title="This dish may be spicy" %}
+							{% endif %}
+						</span>
 					{% endif %}
 					{% if dish.price.size > 0 %}
 						<span class="price">{{ dish.price }}</span>

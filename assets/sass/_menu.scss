@@ -8,6 +8,9 @@
 		display: inline-block;
 		font-size: large;
 		width: 75%;
+
+		.vegetarian { color: #439d18; }
+		.spicy { color: #e4490b; }
 	}
 
 	.price {
@@ -29,6 +32,20 @@
 #search-menu {
 	margin-bottom: 2rem;
 	width: 100%;
+}
+
+#empty-msg {
+	text-align: center;
+
+	p {
+		text-align: center;
+	}
+
+	svg {
+		display: inline-block;
+		margin-bottom: 2em;
+		max-width: 15em;
+	}
 }
 
 input {

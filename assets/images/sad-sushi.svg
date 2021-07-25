@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169 66">
+	<defs>
+		<radialGradient id="a" cx="-379" cy="371" r="1" gradientTransform="translate(65322 -63861) scale(172.31)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f86e00"/>
+			<stop offset=".7" stop-color="#c55a11"/>
+			<stop offset="1" stop-color="#c55a11"/>
+		</radialGradient>
+		<clipPath id="b" transform="translate(-16 -63)">
+			<path fill="none" d="M-378-170h960v540h-960" clip-rule="evenodd"/>
+		</clipPath>
+		<style>
+			.f,.g{fill:none;stroke-miterlimit:10}.f{stroke-width:3.75px;stroke:#843c0c}.g{stroke:#f4b183;stroke-width:3px;stroke-linecap:round}.h{fill:#262626}.i{clip-path:url(#b)}
+		</style>
+	</defs>
+	<path fill="#fff" fill-rule="evenodd" d="M13 51l2-19 137 1-1 20c-8 16-139 15-138-2z"/>
+	<path fill="none" stroke="#969696" stroke-miterlimit="10" stroke-width="3.8" d="M12 51l3-19 137 1-1 20c-8 16-140 15-139-2z"/>
+	<path fill="url(#a)" fill-rule="evenodd" d="M20 110c-9-3 11-27 24-34s33-11 57-11 47 8 62 17 27 28 16 30-55-14-82-15-68 17-77 13z" transform="translate(-16 -63)"/>
+	<path d="M4 47c-9-4 11-27 24-34S61 2 85 2s47 8 62 17 27 28 16 30-55-15-81-15S13 50 4 47z" class="f"/>
+	<path d="M140 16c1 0 2 7 2 15l-2 14M117 8c2 0 3 7 3 16l-2 15M53 6c-1 0-3 7-3 15s1 14 3 16M29 14c-2 0-3 6-3 14l2 14M73 4c-1 0-2 6-2 15l2 14M99 4c1 0 3 7 3 15s-1 14-3 16" class="g"/>
+	<path d="M4 47c-9-4 11-27 24-34S61 2 85 2s47 8 62 17 27 28 16 30-55-15-81-15S13 50 4 47z" class="f"/>
+	<circle cx="71" cy="108.7" r="3.7" class="h" transform="rotate(-23 -96 117)"/>
+	<circle cx="126.8" cy="108.9" r="3.7" class="h" transform="rotate(-77 79 87)"/>
+	<path fill="none" stroke="#262626" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" d="M73 53a14 14 0 0120 0"/>
+</svg>

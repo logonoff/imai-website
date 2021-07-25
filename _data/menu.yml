@@ -2,6 +2,7 @@ appetizer:
   - name: Harumaki 2pcs
     price: $2.75
     description: Japanese Vegetable Spring Rolls
+    vegetarian: true
 
 #  - name: Home-Made Spring Rolls
 #    price: $3.95
@@ -10,18 +11,22 @@ appetizer:
   - name: Edamame
     price: $6.25
     description: Boiled Green Soy Beans
+    vegetarian: true
 
   - name: Gyoza 4pcs
     price: $6.25
     description: Vegetable Dumplings
+    vegetarian: true
 
   - name: Agedashi Tofu
     price: $5.75
     description: Deep Fried Bean Curd - 4 pcs
+    vegetarian: true
 
   - name: Hiyayako Tofu
     price: $4.25
     description: Chilled Bean Curd Served With Ginger
+    vegetarian: true
 
   - name: Ebi Fry 3pcs
     price: $7.55
@@ -90,11 +95,13 @@ appetizer:
   - name: Vegetable Tempura
     price: $7.95
     description: 5 pcs Assorted Vegetable
+    vegetarian: true
 
 salad:
   - name: Hiyashi Seaweed Salad
     price: $5.75
     description: Marinated Seaweed
+    vegetarian: true
 
 #  - name: Smoked Duck Salad
 #    price: $8.95
@@ -102,14 +109,17 @@ salad:
   - name: Green Salad
     price: $6.25
     description: Lettuce, Sliced Carrot & Cabbage
+    vegetarian: true
 
   - name: Tofu Salad
     price: $6.75
     description: Lettuce, Sliced Carrot, Cabbage & Tofu
+    vegetarian: true
 
   - name: Avocado Salad
     price: $7.95
     description: Lettuce, Sliced Carrot, Cabbage & Avocado
+    vegetarian: true
 
   - name: Tobiko Salad
     price: $8.95
@@ -119,10 +129,12 @@ soup:
   - name: Miso
     price: $2.95
     description: Tofu, seaweed, onion, sliced mushroom
+    vegetarian: true
 
   - name: Mixed Mushroom
     price: $4.75
-    description: Different kind of mushroom, seaweed, green onion)
+    description: Different kind of mushroom, seaweed, green onion
+    vegetarian: true
 
   - name: Shrimp
     price: $5.50
@@ -147,6 +159,7 @@ grill:
   - name: Stir Fried Vegetable
     price: $10.95
     description: Assorted Fresh Vegetable
+    vegetarian: true
 
 #  - name: Yaki Saba Half 
 #    price: $8.25
@@ -212,9 +225,11 @@ steam:
 rice:
   - name: Plain Rice
     price: $1.75
+    vegetarian: true
 
   - name: Sushi Rice
     price: $2.25
+    vegetarian: true
 
   - name: Oyaku Don
     price: $11.95
@@ -362,6 +377,7 @@ sushi:
 
   - name: Spicy Scallop - Spicy Hotategai
     price: 2 Sushi&emsp;&emsp; $7.95
+    spicy: true
 
   - name: Octopus - Tako
     price: 2 Sushi&emsp;&emsp; $5.95 <br> 3 Sashimi&emsp; $7.25
@@ -424,6 +440,7 @@ specrolls:
   - name: Spring Blossom - 8pcs
     price: $17.95
     description: Shrimp Tempura, Fish Tempura, Onion, Fish Egg, Tempura Bits with Spicy Mayonnaise
+    spicy: true
 
   - name: Hot Summer - 8pcs
     price: $16.95
@@ -441,26 +458,33 @@ pizza:
   - name: Vegetable
     price: $8.25
     description: Avocado, Onions, Cucumber, Pickles & Spicy Mayonnaise
+    spicy: true
+    vegetarian: true
 
   - name: Assorted Fish
     price: $9.95
     description: Salmon, Tuna, Whitefish, Onions, Spicy Mayonnaise & Fish Egg
+    spicy: true
 
   - name: Salmon
     price: $10.95
-    description: Salmon, Onions,Spicy Mayonnaise & Fish Egg
+    description: Salmon, Onions, Spicy Mayonnaise & Fish Egg
+    spicy: true
 
   - name: Tuna
     price: $11.95
     description: Tuna, Onions, Spicy Mayonnaise & Fish Egg
+    spicy: true
 
   - name: Crab Meat
     price: $8.95
     description: Crab Meat, Spicy Mayonnaise, Onions & Fish Egg
+    spicy: true
 
   - name: California
     price: $9.95
     description: Avocado, Crab Meat, Cucumber, Onions, Spicy Mayonnaise & Fish Egg
+    spicy: true
 
 special-rolls:
   - name: Hawaii Roll
@@ -544,16 +568,20 @@ special-rolls:
   - name: Salad Roll
     price: $9.95
     description: Wrap with cucumber, no rice
+    vegetarian: true
 
 traditional-rolls:
   - name: Avocado Roll
     price: $5.65
+    vegetarian: true
 
   - name: Cucumber Roll
     price: $4.75
+    vegetarian: true
 
   - name: Radish Roll
     price: $4.50
+    vegetarian: true
 
   - name: Egg Roll
     price: $4.50
@@ -569,12 +597,15 @@ traditional-rolls:
 
   - name: Avocado & Cucumber Roll
     price: $5.95
+    vegetarian: true
 
   - name: Salmon & Avocado Roll
     price: $7.65
+    vegetarian: true
 
   - name: Tuna & Avocado Roll
     price: $8.65
+    vegetarian: true
 
   - name: Futomaki
     price: $8.95
@@ -591,18 +622,22 @@ traditional-rolls:
 hand-rolls:
   - name: Avocado
     price: $4.25
+    vegetarian: true
 
   - name: Radish
     price: $3.95
+    vegetarian: true
 
   - name: Tamago
     price: $3.95
 
   - name: Cucumber
     price: $3.95
+    vegetarian: true
 
   - name: Avocado & Cucumber
     price: $4.25
+    vegetarian: true
 
   - name: Salmon
     price: $4.65
@@ -615,9 +650,11 @@ hand-rolls:
 
   - name: Salmon & Avocado
     price: $5.75
+    vegetarian: true
 
   - name: Tuna & Avocado
     price: $6.55
+    vegetarian: true
 
   - name: California
     price: $4.95
@@ -633,15 +670,19 @@ hand-rolls:
 
   - name: Spicy Salmon
     price: $6.95
+    spicy: true
 
   - name: Spicy Kani
     price: $6.25
+    spicy: true
 
   - name: Spicy Tuna
     price: $7.25
+    spicy: true
 
   - name: Spicy California
     price: $5.95
+    spicy: true
 
   - name: Negi Hamachi
     price: $6.95
@@ -651,6 +692,7 @@ hand-rolls:
 
   - name: Yam
     price: $5.95
+    vegetarian: true
 
 sushi-sashimi:
   - name: All Sushi
