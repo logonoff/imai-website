@@ -9,7 +9,7 @@ body {
 
 a {
 	&:hover {
-		color: $accent-colour;
+		color: $accent-light;
 	}
 }
 
@@ -60,7 +60,7 @@ summary {
 	z-index: -1337;
 
 	&:focus-visible, &:active {
-		background: $accent-colour;
+		background: $accent-light;
 		border: 3px solid white;
 		border-radius: 15px;
 		color: white;
@@ -94,4 +94,119 @@ h2, h3 {
 /* Increase margin for details */
 details {
 	margin-bottom: 2rem;
+}
+
+/*
+ * Controls
+ */
+
+/* Button */
+$button: #EEE linear-gradient(#E0E0E0, #CCC);
+$button-hover: #F2F2F2 linear-gradient(#F2F2F2, #E9E9E9);
+$button-disabled: #CCC linear-gradient(#CCC, #AAA);
+
+$button-border: #B5B5B5;
+$button-border-hover: #CECECE;
+
+$button-inset-border: #E3E3E3;
+$button-inset-border-hover: #FDFDFD;
+
+input {
+	&[type="text"] {
+		background: linear-gradient(#F9F9F9, white);
+		border: 0;
+		border-radius: .2rem;
+		box-shadow: 0 0 0 1px #DADADA, 0 0 0 2px #B5B5B5;
+		font-family: inherit;
+		image-rendering: pixelated;
+		padding: .5em;
+		transition: .3s box-shadow ease;
+
+		&:hover { box-shadow: 0 0 0 1px #CECECE, 0 0 0 2px white; }
+
+		&:focus {
+			box-shadow: 0 0 0 1px $accent-light, 0 0 0 2px $accent-light, 0 0 0 0 inset $accent-light;
+			outline: 1px solid white;
+		}
+	}
+
+	&[type="checkbox"], &[type="radio"] {
+		opacity: 0;
+		position: absolute;
+
+		&:focus + label .sc-input {
+			background: $button-hover;
+			border-color: $button-border-hover;
+			box-shadow: inset 0 0 0 1px $button-inset-border-hover;
+		}
+
+		+ label { user-select: none; }
+
+		+ label .sc-input {
+			background: $button;
+			border: 1px solid $button-border;
+			box-shadow: inset 0 0 0 1px $button-inset-border;
+			display: inline-block;
+			height: .8em;
+			transition: background .3s ease, border-color .3s ease;
+			user-select: none;
+			width: .8em;
+		}
+
+		+ label .sc-input::before {
+			content: "";
+			display: block;
+			margin: auto;
+			position: relative;
+			transition: background .3s ease;
+		}
+
+		&:hover + label .sc-input {
+			background: $button-hover;
+			border-color: $button-border-hover;
+			box-shadow: inset 0 0 0 1px $button-inset-border-hover;
+		}
+	}
+
+	&[type="checkbox"] {
+		+ label .sc-input { border-radius: .25rem; }
+
+		+ label .sc-input::before {
+			bottom: .05em;
+			clip-path: polygon(50% 70%, 70% 16%, 80% 16%, 50% 100%, 40% 100%, 30% 50%, 40% 50%);
+			height: .8em;
+			width: .8em;
+		}
+
+		&:checked + label .sc-input::before {
+			background-color: $accent-dark;
+			background-color: var(--checkmark-colour);
+		}
+
+		&:indeterminate + label .sc-input::before {
+			background-color: $accent-dark;
+			background-color: var(--checkmark-colour);
+			border-radius: 30%;
+			clip-path: initial;
+			height: .5em;
+			top: .15em;
+			width: .5em;
+		}
+	}
+
+	&[type="radio"] {
+		+ label .sc-input { border-radius: 100%; }
+
+		+ label .sc-input::before {
+			border-radius: 100%;
+			height: .4em;
+			top: .2em;
+			width: .4em;
+		}
+
+		&:checked + label .sc-input::before {
+			background-color: $accent-dark;
+			background-color: var(--checkmark-colour);
+		}
+	}
 }

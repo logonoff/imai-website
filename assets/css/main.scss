@@ -7,7 +7,8 @@ style: compressed
 @import "vendor/normalize";
 @import "vendor/bootstrap-grid";
 
-$accent-colour: #be9e5f; // should contrast well with white
+$accent-light: #be9e5f; // should contrast well with black
+$accent-dark: #312520; // should contrast well with white
 
 /*!
  * IMAI Japanese Cuisine

@@ -52,3 +52,19 @@
 	}
 	
 }
+
+@media print {
+	#menu {
+		summary{
+			&::marker {
+				content: "";
+			}
+
+			p {
+				margin-left: 0;
+			}
+		}
+
+	}
+
+}

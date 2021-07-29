@@ -4,6 +4,12 @@
 .dish {
 	padding-bottom: 0.5em;
 
+	&.three-cols {
+		.name {
+			width: 50%;
+		}
+	}
+
 	.name {
 		display: inline-block;
 		font-size: large;
@@ -15,6 +21,10 @@
 
 	.price {
 		float: right;
+		width: 25%;
+	}
+
+	.price2 {
 		width: 25%;
 	}
 
@@ -30,8 +40,20 @@
 }
 
 #search-menu {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	width: 100%;
+}
+
+#filter-selection {
+	margin-bottom: 2rem;
+
+	.icon {
+		margin-left: 0.25em;
+	}
+
+	label {
+		margin-right: 2rem;
+	}
 }
 
 #empty-msg {
@@ -45,25 +67,5 @@
 		display: inline-block;
 		margin-bottom: 2em;
 		max-width: 15em;
-	}
-}
-
-input {
-	&[type="text"] {
-		background: linear-gradient(#F9F9F9, white);
-		border: 0;
-		border-radius: .2rem;
-		box-shadow: 0 0 0 1px #DADADA, 0 0 0 2px #B5B5B5;
-		font-family: inherit;
-		image-rendering: pixelated;
-		padding: .5em;
-		transition: .3s box-shadow ease;
-
-		&:hover { box-shadow: 0 0 0 1px #CECECE, 0 0 0 2px white; }
-
-		&:focus {
-			box-shadow: 0 0 0 1px $accent-colour, 0 0 0 2px $accent-colour, 0 0 0 0 inset $accent-colour;
-			outline: 1px solid white;
-		}
 	}
 }

@@ -11,7 +11,7 @@
 
 		<div class="row">
 			{% for dish in site.data.menu[include.id] %}
-				<div class="dish col-md-6 col-sm-6">
+				<div class="dish col-md-6 col-sm-6{% if dish.vegetarian %} vegetarian{% endif %}{% if dish.spicy %} spicy{% endif %}{% if dish.price2.size > 0 %} three-cols{% endif %}">
 					{% if dish.name.size > 0 %}
 						<span class="name">
 							{{ dish.name }}
@@ -20,12 +20,17 @@
 							{% endif %}
 
 							{% if dish.spicy %}
-								{% include icon.html icon="icon-fire" class="spicy" title="This dish may be spicy" %}
+								{% for i in (1..{{dish.spicy}}) %}
+									{% include icon.html icon="icon-fire" class="spicy" title="This dish may be spicy" %}
+								{% endfor %}
 							{% endif %}
 						</span>
 					{% endif %}
 					{% if dish.price.size > 0 %}
 						<span class="price">{{ dish.price }}</span>
+					{% endif %}
+					{% if dish.price2.size > 0 %}
+						<span class="price2">{{ dish.price2 }}</span>
 					{% endif %}
 					{% if dish.description.size > 0 %}
 						<div class="desc">{{ dish.description }}</div>
