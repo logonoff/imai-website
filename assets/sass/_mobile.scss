@@ -14,8 +14,15 @@
 		}
 
 		ul {
+			display: flex;
+			justify-content: space-around;
 			order: 2;
-			width: initial;
+			padding-left: 1rem;
+			width: 100%;
+
+			li {
+				margin-right: 0;
+			}
 		}
 
 		.navbar-logo {
@@ -24,13 +31,13 @@
 			
 			img {
 				max-height: 4em;
-				padding-left: 1em;
+				padding-left: 1rem;
 			}
 		}
 
 		.cta {
 			order: 3;
-			padding: 0 0 0 1.5em;
+			padding: 0 0 0 1.25rem;
 			text-align: left;
 			width: initial;
 		}
@@ -43,10 +50,14 @@
 		}
 	}
 
+	.hero-thingy {
+		padding-top: 10rem;
+	}
+
 	#info {
 		.col-4 {
 			display: block;
-			padding: 1em;
+			padding: 1rem;
 			width: 100%;
 		}
 	}

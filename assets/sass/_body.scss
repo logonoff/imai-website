@@ -3,12 +3,21 @@
  */
 
 main {
+	#index-hero {
+		background-image: url("/assets/images/IMG_3475.jpg");
+		background-position-y: bottom;
+	}
+
+	#menu-hero {
+		background-image: url("/assets/images/ramen.jpg");
+		background-position-y: center;
+	}
+
 	// Hero
 	.hero-thingy {
 		background-attachment: fixed;
 		background-blend-mode: multiply;
 		background-color: rgba(0, 0, 0, .5);
-		background-position-y: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		box-shadow: 0px 9px 38px 8px rgba(0,0,0,0.38);
@@ -29,12 +38,14 @@ main {
 
 	}
 
-	#index-hero {
-		background-image: url("/assets/images/IMG_3475.jpg");
-	}
-
 	img {
 		max-width: 100%;
+	}
+
+	.col-6 .gallery {
+		img {
+			max-height: none;
+		}
 	}
 }
 

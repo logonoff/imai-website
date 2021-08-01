@@ -4,20 +4,22 @@ title: Menu
 ordering: 2
 ---
 
-<div class="hero-thingy parallax" id="index-hero">
+<div class="hero-thingy parallax" id="menu-hero">
 	<h1>Menu</h1>
 </div>
 
 <div class="container">
-	<input type="text" id="search-menu" placeholder="Search for items…" style="display: none;"/>
+	<div id="menu-filters" style="display: none;">
+		<input type="text" id="search-menu" placeholder="Search for items…"/>
 
-	<form id="filter-selection">
-		<input type="checkbox" id="vegetarian" name="vegetarian"/>
-		<label for="vegetarian" style="--checkmark-colour: #439d18;"><span class="sc-input"></span>{% include icon.html icon="icon-leaf" class="vegetarian" fill="#439d18" %} Vegetarian</label>
+		<form id="filter-selection">
+			<input type="checkbox" id="vegetarian" name="vegetarian"/>
+			<label for="vegetarian" style="--checkmark-colour: #439d18;"><span class="sc-input"></span>{% include icon.html icon="icon-leaf" class="vegetarian" fill="#439d18" %} Vegetarian</label>
 
-		<input type="checkbox" id="spicy" name="spicy"/>
-		<label for="spicy" style="--checkmark-colour: #e4490b;"><span class="sc-input"></span>{% include icon.html icon="icon-fire" class="spicy" fill="#e4490b" %} Spicy</label>
-	</form>
+			<input type="checkbox" id="spicy" name="spicy"/>
+			<label for="spicy" style="--checkmark-colour: #e4490b;"><span class="sc-input"></span>{% include icon.html icon="icon-fire" class="spicy" fill="#e4490b" %} Spicy</label>
+		</form>
+	</div>
 
 	<div id="empty-msg" style="display: none;">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169 66">

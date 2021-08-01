@@ -16,7 +16,7 @@ $(".js-self-link h2, .js-self-link h3").addSelfLink();
  * Menu
  */
 // only show search when js is loaded
-$("#search-menu").show();
+$("#menu-filters").show();
 
 // filter all dishes by class
 function filterSelection(c) {

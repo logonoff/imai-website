@@ -3,7 +3,9 @@
 <a href="#main" class="skip-to-content">Skip to Content</a>
 
 <nav>
-	<a class="navbar-logo" href="{{ "index.html" | prepend: node.baseurl }}"><img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | prepend: site.url }}"/></a>
+	<a class="navbar-logo" href="{{ "index.html" | prepend: node.baseurl }}">
+		<img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | prepend: site.url }}"/>
+	</a>
 
 	<ul>
 		{% assign sorted_pages = site.pages | sort:"ordering" %}
