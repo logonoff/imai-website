@@ -6,11 +6,13 @@ main {
 	#index-hero {
 		background-image: url("/assets/images/IMG_3475.jpg");
 		background-position-y: bottom;
+		height: calc(70vh - 10em); 
 	}
 
 	#menu-hero {
 		background-image: url("/assets/images/ramen.jpg");
 		background-position-y: center;
+		height: calc(50vh - 10em); 
 	}
 
 	// Hero
@@ -21,12 +23,13 @@ main {
 		background-repeat: no-repeat;
 		background-size: cover;
 		box-shadow: 0px 9px 38px 8px rgba(0,0,0,0.38);
+		box-sizing: content-box;
 		color: white;
 		display: flex;
 		flex-direction: column;
-		height: 60vh; 
 		justify-content: center;
 		margin-bottom: 10em;
+		padding-top: 8rem;
 		position: relative;
 		text-align: center;
 		width: 100%;
