@@ -1,3 +1,6 @@
+/* parallax */
+$(".parallax").parallax("100%", 0.1);
+
 /* function to add a self link for stuff with an id */
 $.fn.addSelfLink = function() {
 	return this.each(function() {
@@ -19,6 +22,7 @@ $(".js-self-link h2, .js-self-link h3").addSelfLink();
 $("#menu-filters").show();
 
 // filter all dishes by class
+// todo: hacky --- refactor
 function filterSelection(c) {
 	var x, i;
 	x = document.getElementsByClassName("dish");

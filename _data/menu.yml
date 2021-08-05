@@ -478,6 +478,7 @@ specrolls:
   - name: Hot Summer - 8pcs
     price: $16.95
     description: Avocado, Crab Meat, Cucumber, Onion, Fish Egg, Deep Fried with House Special Mayonnaise
+    spicy: 1
 
   - name: Cool Autumn - 8pcs
     price: $16.95
@@ -540,18 +541,22 @@ special-rolls:
   - name: Sweet Potato Roll
     price: $7.75
     description: Tempura Sweet Potato
+    vegetarian: true
 
   - name: Spicy Tuna Roll
     price: $8.95
     description: Tuna, Crispy Crumbs & Spicy Mayonnaise
+    spicy: 1
 
   - name: Spicy Salmon Roll
     price: $8.95
     description: Salmon, Crispy Crumbs & Spicy Mayonnaise
+    spicy: 1
 
   - name: Spicy Kani Roll
     price: $8.25
     description: Crab Meat, Crispy Crumbs & Spicy Mayonnaise
+    spicy: 1
 
   - name: Unagi Roll
     price: $9.95
@@ -572,6 +577,7 @@ special-rolls:
   - name: Dynamite Roll
     price: $11.95
     description: Shrimp Tempura, Fish Egg, Spicy Mayonnaise & Avocado
+    spicy: 1
 
   - name: Tempura Roll
     price: $11.95
@@ -595,9 +601,11 @@ special-rolls:
 
   - name: Spicy Scallop Roll
     price: $9.25
+    spicy: 1
 
   - name: Spicy California Roll
     price: $7.25
+    spicy: 1
 
   - name: Salad Roll
     price: $9.95
@@ -649,6 +657,7 @@ traditional-rolls:
 
   - name: Inari Roll
     price: $4.50
+    vegetarian: true
 
   - name: Negi Hamachi Roll
     price: $8.25

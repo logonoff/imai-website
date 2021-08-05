@@ -11,7 +11,17 @@
 
 		<div class="row">
 			{% for dish in site.data.menu[include.id] %}
-				<div class="dish col-md-6 col-sm-6{% if dish.vegetarian %} vegetarian{% endif %}{% if dish.spicy %} spicy{% endif %}{% if dish.price2.size > 0 %} three-cols{% endif %}">
+				<div class="dish
+					{% if dish.price2.size > 0 %} three-cols{% endif %}
+
+					{% if include.fullwidth %} col-md-12 col-sm-12
+						{% else %} col-md-6 col-sm-6
+					{% endif %}
+
+					{% if dish.vegetarian %} vegetarian{% endif %}
+					{% if dish.spicy %} spicy{% endif %}
+					">
+
 					{% if dish.name.size > 0 %}
 						<span class="name">
 							{{ dish.name }}
