@@ -8,6 +8,8 @@ body {
 }
 
 a {
+	touch-action: manipulation; // https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
+
 	&:hover {
 		color: $accent-light;
 	}
@@ -24,6 +26,11 @@ summary {
 	font-weight: 500;
 	line-height: 1.2rem;
 	padding: 0.5rem 0;
+}
+
+.icon {
+	height: 1em;
+	width: 1em;
 }
 
 // Photoswipe gallery

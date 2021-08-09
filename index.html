@@ -73,17 +73,24 @@ ordering: 1
 
 <section class="container" id="info">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4" id="contact-us">
 			<h2 class="heading">Contact Us</h2>
-			{% include icon.html icon="icon-location" %} 98 Main St S, Georgetown, ON L7G 3E4<br>
-			{% include icon.html icon="icon-phone" %} <a href="tel:905-877-4624">905-877-IMAI (4624)</a><br>
-			{% include icon.html icon="icon-facebook" %} <a href="https://www.facebook.com/pages/category/Sushi-Restaurant/Imai-Japanese-Cuisine-919515488131536/">Follow us on Facebook</a><br>
-			{% include icon.html icon="icon-instagram" %} <a href="https://instagram.com/imaijapanese/">Follow us on Instagram</a><br>
+			<div>
+				<h3 class="heading">{% include icon.html icon="icon-phone" %} Phone</h3>
+				<a href="tel:905-877-4624">905-877-IMAI (4624)</a><br>
+			</div>
+
+			<div>
+				<h3 class="heading">{% include icon.html icon="icon-location" %} Location</h3>
+				98 Main St S, Georgetown, ON L7G 3E4<br>
+			</div>
+
 		</div>
 
 		<div class="col-md-4">
+			<h2 class="heading">Open Hours</h2>
+
 			<table id="open-hours">
-				<caption class="heading">Open Hours</caption>
 				<tr>
 					<td>Sunday</td>
 					<td>4:00PM - 8:00PM</td>
@@ -103,11 +110,18 @@ ordering: 1
 				</tr>
 			</table>
 		</div>
+
+		<div class="col-md-4" id="follow-us">
+			<h2 class="heading">Follow Us</h2>
+			<a href="https://www.facebook.com/pages/category/Sushi-Restaurant/Imai-Japanese-Cuisine-919515488131536/" title="Follow us on Facebook">{% include icon.html icon="icon-facebook" %}</a>
+			<a href="https://instagram.com/imaijapanese/" title="Follow us on Instagram">{% include icon.html icon="icon-instagram" %}</a><br>
+		</div>
+
 	</div>
 </section>
 
 <section class="container" id="map">
 	<div class="row">
-		<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d360.86982908650634!2d-79.925625!3d43.649029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b72ac88fd4ce7%3A0x7625ab0242c56b1d!2sImai%20Japanese%20Cuisine!5e0!3m2!1sen!2sus!4v1627796696525!5m2!1sen!2sus"></iframe>
+		<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Map of Imai Japanese Cuisine" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d360.86982908650634!2d-79.925625!3d43.649029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b72ac88fd4ce7%3A0x7625ab0242c56b1d!2sImai%20Japanese%20Cuisine!5e0!3m2!1sen!2sus!4v1627796696525!5m2!1sen!2sus"></iframe>
 	</div>
 </section>

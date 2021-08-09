@@ -1,9 +1,10 @@
-<svg class="icon {{ include.class }}" aria-hidden="true" data-iconame="{{ include.icon }}" viewbox="0 0 20 20"
-	{% if include.width %} width="{{ include.width }}" {% else %} width="1em" {% endif %}
-	{% if include.height %} height="{{ include.height }}" {% else %} height="1em" {% endif %}
-	{% if include.fill %} fill="{{ include.fill }}"
-						style="color: {{ include.fill }};" {% endif %}
-	{% if include.title %} title="{{ include.title }}" {% endif %}
+<svg 
+	class="icon {{ include.icon }} {{ include.class }}"
+	aria-hidden="true"
+	{% if include.width %}width="{{ include.width }}"{% endif %}
+	{% if include.height %}height="{{ include.height }}"{% endif %}
+	{% if include.fill %}style="color: {{ include.fill }};"{% endif %}
+	{% if include.title %}title="{{ include.title }}"{% endif %}
 >
 	<use xlink:href="{{ "/assets/icons.svg" | prepend: site.url }}#{{ include.icon }}"/>
 </svg>

@@ -3,18 +3,6 @@
  */
 
 main {
-	#index-hero {
-		background-image: url("/assets/images/IMG_3475.jpg");
-		background-position-y: bottom;
-		height: calc(70vh - 10em); 
-	}
-
-	#menu-hero {
-		background-image: url("/assets/images/ramen.jpg");
-		background-position-y: center;
-		height: calc(50vh - 10em); 
-	}
-
 	// Hero
 	.hero-thingy {
 		background-attachment: fixed;
@@ -53,13 +41,34 @@ main {
 	}
 }
 
-#open-hours {
-	caption-side: top;
+#index-hero {
+	background-image: url("/assets/images/IMG_3475.jpg");
+	background-position-y: bottom;
+	height: calc(70vh - 10em); 
+}
 
-	caption {
-		color: black;
+#menu-hero {
+	background-image: url("/assets/images/ramen.jpg");
+	background-position-y: center;
+	height: calc(50vh - 10em); 
+}
+
+#info {
+	h2 {
+		margin-bottom: 0.5em;
+	}
+}
+#contact-us {
+	h3 {
+		font-size: 1.15rem;
 	}
 
+	div {
+		margin-bottom: 1rem;
+	}
+}
+
+#open-hours {
 	tr {
 		td {
 			padding: 0 2em 0.5em 0;
@@ -67,6 +76,30 @@ main {
 			&:nth-child(2) {
 				font-weight: bold;
 			}
+		}
+	}
+}
+
+#follow-us {
+	a {
+		background: #f0f0f0;
+		border-radius: 100%;
+		color: #5C5C5C;
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+		line-height: 3rem;
+		text-align: center;
+		text-decoration: none;
+		transition: top 0.4s ease;
+		margin-right: 1em;
+		top: 0;
+		position: relative;
+		padding: 0;
+		
+		&:hover, &:focus-visible {
+			background: $accent-light;
+			top: 5px;
 		}
 	}
 }

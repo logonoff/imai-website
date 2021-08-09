@@ -1,33 +1,12 @@
-/* parallax */
-$(".parallax").parallax("100%", 0.1);
-
-/* function to add a self link for stuff with an id */
-$.fn.addSelfLink = function() {
-	return this.each(function() {
-		$(this).append(" " +
-			"<a class='self-link instapaper_hide instapaper_ignore' href='#" + $(this).closest("[id]").attr("id") +
-			"' aria-hidden='true' tabindex='-1' title='Permalink to this section'>#</a>"
-		);
-	});
-};
-
-
-// Apply self link to h2 and h2 w. js-self-link class
-$(".js-self-link h2, .js-self-link h3").addSelfLink();
-
 /*
- * Menu
+ * Helper functions that can be loaded before DOM does
  */
-// only show search when js is loaded
-$("#menu-filters").show();
-
 // filter all dishes by class
 // todo: hacky --- refactor
 function filterSelection(c) {
 	var x, i;
 	x = document.getElementsByClassName("dish");
 	if (c == "all") c = "";
-
 	for (i = 0; i < x.length; i++) {
 		$(x[i]).hide();
 		if (x[i].className.indexOf(c) > -1) {
@@ -46,7 +25,6 @@ function hideEmptySections() {
 			$(this).closest('[id]').hide();
 		}
 	});
-
 	// if nothing was returned, show a friendly message
 	if ($("#menu").innerHeight() === 0) {
 		$("#empty-msg").show();
@@ -55,29 +33,44 @@ function hideEmptySections() {
 	}
 }
 
-// filter by search
-$("#search-menu").on("keyup", function() {
-	var value = $(this).val().toLowerCase();
-	$("#menu .dish").filter(function() {
-		$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-	}); 
+// Handler for .ready() called.
+$(document).ready(function() {
+	/* initalize quicklink */
+	quicklink.listen();
 
-	hideEmptySections();
+	/* parallax */
+	$(".parallax").parallax("50%", 0.1, false, "100%");
+
+	/*
+	 * Menu
+	 */
+	// only show search when js is loaded
+	$("#menu-filters").show();
+
+	// filter by search
+	$("#search-menu").on("keyup", function() {
+		var value = $(this).val().toLowerCase();
+		$("#menu .dish").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+		}); 
+
+		hideEmptySections();
+	});
+
+	// filter by category
+	$('#filter-selection').click(function() {
+		var filter = "";
+
+		if ($("#vegetarian").prop("checked")) {
+			filter += "vegetarian";
+		}
+
+		if ($("#spicy").prop("checked")) {
+			filter += " spicy";
+		}
+
+		filterSelection(filter);
+		hideEmptySections();
+	});
+
 });
-
-// filter by category
-$('#filter-selection').click(function() {
-	var filter = ""
-
-	if ($("#vegetarian").prop("checked")) {
-		filter += "vegetarian";
-	}
-
-	if ($("#spicy").prop("checked")) {
-		filter += " spicy";
-	}
-
-	filterSelection(filter);
-	hideEmptySections();
-});
-
