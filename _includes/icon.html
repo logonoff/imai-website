@@ -1,4 +1,4 @@
-<svg 
+<svg
 	class="icon {{ include.icon }} {{ include.class }}"
 	aria-hidden="true"
 	{% if include.width %}width="{{ include.width }}"{% endif %}
@@ -6,5 +6,5 @@
 	{% if include.fill %}style="color: {{ include.fill }};"{% endif %}
 	{% if include.title %}title="{{ include.title }}"{% endif %}
 >
-	<use xlink:href="{{ "/assets/icons.svg" | prepend: site.url }}#{{ include.icon }}"/>
+	<use xlink:href="{{ "/assets/icons.svg" | absolute_url }}#{{ include.icon }}"/>
 </svg>

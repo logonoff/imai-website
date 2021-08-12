@@ -161,7 +161,7 @@ grill:
     description: Assorted Fresh Vegetable
     vegetarian: true
 
-#  - name: Yaki Saba Half 
+#  - name: Yaki Saba Half
 #    price: $8.25
 #    description: Half Grilled Mackerel
 
@@ -181,7 +181,7 @@ grill:
     price: $18.95
     description: Teriyaki Beef with Mixed Vegetables
 
-#  - name: Gintara 
+#  - name: Gintara
 #    price: $21.95
 #    description: Grilled Marinated Black Cod with Mixed Vegetables
 
@@ -206,7 +206,7 @@ steam:
     price: $12.95
     description: Steamed Seafood Egg Custard
 
-#  - name: Asari Sakemusi 
+#  - name: Asari Sakemusi
 #    price: $10.95
 #    description: Steamed Clams with Japanese Rice Wine Soup
 
@@ -214,7 +214,7 @@ steam:
     price: $12.95
     description: Broiled Assorted Seafood with Fish Broth
 
-#  - name: Sukiyaki 
+#  - name: Sukiyaki
 #    price: $12.95
 #    description: Broiled Tender Beef, Vegetables &amp; Mushroom in Sukiyaki Sauce.  Served with Rice
 
@@ -255,7 +255,7 @@ rice:
     price: $12.95
     description: Pork Cutlet & Potatoes On Rice
 
-#  - name: Vegetable Curry on Rice 
+#  - name: Vegetable Curry on Rice
 #    price: $9.95
 
   - name: Unagi Don
@@ -302,7 +302,7 @@ noodles:
   - name: Extra BBQ Pork - 1 Slice
     price: $2.50 each
 
-#  - name: Extra Chicken 
+#  - name: Extra Chicken
 #    price: $2.00
 
 sushi:
@@ -369,7 +369,7 @@ sushi:
 #    price: 2 Sushi $4.55
 
 #  - name: Jack Mackerel - Aji
-#    price: 2 Sushi Seasonal 
+#    price: 2 Sushi Seasonal
 
   - name: Boiled Shrimp - Ebi
     price: 2 Sushi $5.95
@@ -424,7 +424,7 @@ sushi:
     price2: 3 Sashimi $7.95
 
 #  - name: Lobster - Ise Ebi
-#    price: 2 Sushi Seasonal 
+#    price: 2 Sushi Seasonal
 
 #  - name: Round Clam - Aoyagi
 #    price: 2 Sushi Seasonal
@@ -787,7 +787,13 @@ tradcourses:
   - name: BBQ Eel
     price: $23.00
 
+#  - name: Black Cod
+#    price: $29.00
+
 noodlecourses:
+#  - name: Toritarage
+#    price: $18.00
+
   - name: Pan Fried Dumpling 6 pcs
     price: $19.95
 
@@ -796,6 +802,9 @@ noodlecourses:
 
   - name: Tempura
     price: $22.00
+
+#  - name: Yaki Short Rib
+#    price: $20.50
 
 dessert:
   - name: Ice Cream
@@ -813,20 +822,21 @@ dessert:
   - name: Mango Mousse Cake
     price: $2.95
 
-#  - name: Coconut Mousse Cake 
+#  - name: Coconut Mousse Cake
 #    price: $4.75
-        
-#  - name: Berryccino 
+
+#  - name: Berryccino
 #    price: $4.75
-        
-#  - name: Chococcino 
+
+#  - name: Chococcino
 #    price: $4.75
-        
-#  - name: Mangoccino 
+
+#  - name: Mangoccino
 #    price: $4.75
-        
-#  - name: Fresh Fruit Platter  
-#    price: L-$15.95 S-$8.50
+
+#  - name: Fresh Fruit Platter
+#    price: S-$8.50
+#    price2: L-$15.95
 
 sscombo:
   - name: 18 Pieces Sashimi
@@ -870,6 +880,8 @@ lunch-special-kitchen:
   - name: Chicken Teriyaki
 
   - name: Japanese Style Pork Cutlets
+
+#  - name: Vegetable Teriyaki with Assorted Mushroom
 
   - name: Tempura
 

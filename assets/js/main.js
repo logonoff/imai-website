@@ -1,30 +1,33 @@
 /*
  * Helper functions that can be loaded before DOM does
  */
-// filter all dishes by class
-// todo: hacky --- refactor
+
+/* filter all dishes by class
+ * assumes dishes have class .dish, and
+ * classes in elements .dish are in order of argument c */
 function filterSelection(c) {
-	var x, i;
-	x = document.getElementsByClassName("dish");
 	if (c == "all") c = "";
-	for (i = 0; i < x.length; i++) {
-		$(x[i]).hide();
-		if (x[i].className.indexOf(c) > -1) {
-			$(x[i]).show();
+
+	$(".dish").each(function() {
+		if ($(this).attr("class").includes(c)) {
+			$(this).show();
+		} else {
+			$(this).hide();
 		};
-	}
+	});
 }
 
 // hide section of the menu that are all hidden
-function hideEmptySections() {
-	// hide empty sections
+function hideEmptyCategories() {
+	// hide empty categories
 	jQuery.each($("#menu").children(), function() {
 		if ($("#" + $(this).closest("section").attr("id") + " .dish:not([style*='display: none'])").length) {
-			$(this).closest('[id]').show();
+			$(this).closest("[id]").show();
 		} else {
-			$(this).closest('[id]').hide();
+			$(this).closest("[id]").hide();
 		}
 	});
+
 	// if nothing was returned, show a friendly message
 	if ($("#menu").innerHeight() === 0) {
 		$("#empty-msg").show();
@@ -39,7 +42,9 @@ $(document).ready(function() {
 	quicklink.listen();
 
 	/* parallax */
-	$(".parallax").parallax("50%", 0.1, false, "100%");
+	$(".parallax").each(function() {
+		$(this).parallax("50%", 0.1, false, $(this).data("parallax-offset"));
+	});
 
 	/*
 	 * Menu
@@ -52,13 +57,13 @@ $(document).ready(function() {
 		var value = $(this).val().toLowerCase();
 		$("#menu .dish").filter(function() {
 			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-		}); 
+		});
 
-		hideEmptySections();
+		hideEmptyCategories();
 	});
 
 	// filter by category
-	$('#filter-selection').click(function() {
+	$("#filter-selection").click(function() {
 		var filter = "";
 
 		if ($("#vegetarian").prop("checked")) {
@@ -70,7 +75,7 @@ $(document).ready(function() {
 		}
 
 		filterSelection(filter);
-		hideEmptySections();
+		hideEmptyCategories();
 	});
 
 });

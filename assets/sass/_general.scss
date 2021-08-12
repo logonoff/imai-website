@@ -9,9 +9,11 @@ body {
 
 a {
 	touch-action: manipulation; // https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
+	text-decoration: none;
 
-	&:hover {
+	&:hover, &:focus-visible {
 		color: $accent-light;
+		text-decoration: underline;
 	}
 }
 

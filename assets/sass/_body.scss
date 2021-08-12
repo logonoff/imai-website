@@ -23,7 +23,7 @@ main {
 		text-align: center;
 		width: 100%;
 
-		h2 { 
+		h2 {
 			margin: auto 0;
 			font-size: 3rem;
 		}
@@ -44,13 +44,13 @@ main {
 #index-hero {
 	background-image: url("/assets/images/IMG_3475.jpg");
 	background-position-y: bottom;
-	height: calc(70vh - 10em); 
+	height: calc(70vh - 10em);
 }
 
 #menu-hero {
 	background-image: url("/assets/images/ramen.jpg");
 	background-position-y: center;
-	height: calc(50vh - 10em); 
+	height: calc(50vh - 10em);
 }
 
 #info {
@@ -91,12 +91,12 @@ main {
 		line-height: 3rem;
 		text-align: center;
 		text-decoration: none;
-		transition: top 0.4s ease;
+		transition: top 0.3s ease;
 		margin-right: 1em;
 		top: 0;
 		position: relative;
 		padding: 0;
-		
+
 		&:hover, &:focus-visible {
 			background: $accent-light;
 			top: 5px;

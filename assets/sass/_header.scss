@@ -30,14 +30,9 @@ nav {
 		order: 1;
 		padding-left: $edge-space;
 		width: calc(#{(100vw - $logo-width) / 2} - #{$edge-space});
-		
+
 		&:hover > li {
 			opacity: 0.6;
-
-			&.current {
-				opacity: 0.8;
-				text-decoration: inherit;
-			}
 
 			a {
 				color: white;
@@ -47,11 +42,20 @@ nav {
 		li {
 			display: inline-block;
 			margin-right: 1rem;
-			transition: opacity .125s ease;
+			transition: opacity 0.3s ease;
 
-			&:hover, &.current, &.current:hover {
-				opacity: 1;
-				text-decoration: underline;
+			&.current {
+				a {
+					text-decoration: underline;
+				}
+			}
+
+			&:hover {
+				opacity: 0.9;
+
+				a {
+					text-decoration: none;
+				}
 			}
 		}
 	}

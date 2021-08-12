@@ -4,7 +4,7 @@ title: Home
 ordering: 1
 ---
 
-<div class="hero-thingy parallax" id="index-hero">
+<div class="hero-thingy parallax" id="index-hero" data-parallax-offset="100%">
 	<h1>We know Sushi.</h1>
 	<p>Fresh, authentic, and delicious. It's always a great time for IMAI.</p>
 </div>
@@ -13,16 +13,16 @@ ordering: 1
 	<div class="row justify-content-between">
 		<div class="col-md-5" style="margin: auto 0;">
 			<h2>Authentic Japanese Restaurant</h2>
-			At Imai, we serve authentic Japanese food. Family owned since our inception, we invite you to try 
-			our delicious cuisine. We are proud of our friendly atmosphere and fresh ingredients. Every time you 
-			stop by, we guarantee that your meal is made fresh. 
+			At Imai, we serve authentic Japanese food. Family owned since our inception, we invite you to try
+			our delicious cuisine. We are proud of our friendly atmosphere and fresh ingredients. Every time you
+			stop by, we guarantee that your meal is made fresh.
 			<!--
 				Add more stuff here later
 			-->
 		</div>
 		<div class="col-md-6 gallery" data-pswp-uid="1">
-			<a href="assets/images/IMG_0311.jpg" data-size="552x413" style="float: right;">
-				<img src="assets/images/IMG_0311.jpg" alt="sushi sashimi"/>
+			<a href="/assets/images/IMG_0311.jpg" data-size="552x413" style="float: right;">
+				<img src="/assets/images/IMG_0311.jpg" alt="sushi sashimi"/>
 				<figure>Toro Nigiri</figure>
 			</a>
 		</div>
@@ -33,14 +33,14 @@ ordering: 1
 	<div class="row justify-content-between">
 		<h2>Deals</h2>
 		<div class="col-md-5" style="margin: auto 0;">
-			<h5>Free delivery of order over $35 before tax</h5>
+			<h3 class="heading">Free delivery of order over $35 before tax</h3>
 			<!--
 				Add more stuff here later, e.g., where you h+ave to order to get
 				free delivery (uber? phone call?)
 			-->
 		</div>
 		<div class="col-md-5" style="margin: auto 0;">
-			<h5>10% Off on à la carte orders</h5>
+			<h3 class="heading">10% Off on à la carte orders</h3>
 			Orders must be over $35 before tax. Cash only.
 		</div>
 	</div>
@@ -51,20 +51,20 @@ ordering: 1
 		<h2>Gallery</h2>
 
 		<div class="gallery" data-pswp-uid="2">
-			<a href="assets/images/IMG_0308.jpg" data-size="540x960">
-				<img src="assets/images/IMG_0308.jpg" alt="japanese restaurant georgetown authentic"/>
+			<a href="/assets/images/IMG_0308.jpg" data-size="540x960">
+				<img src="/assets/images/IMG_0308.jpg" alt="japanese restaurant georgetown authentic"/>
 				<figure>Mackerel Sashimi</figure>
 			</a>
-			<a href="assets/images/IMG_0314.jpg" data-size="1281x720">
-				<img src="assets/images/IMG_0314.jpg" alt="ramen"/>
+			<a href="/assets/images/IMG_0314.jpg" data-size="1281x720">
+				<img src="/assets/images/IMG_0314.jpg" alt="ramen"/>
 				<figure>Assorted Sashimi Plated on Boat</figure>
 			</a>
-			<a href="assets/images/IMG_3473.jpg" data-size="3264x2448">
-				<img src="assets/images/IMG_3473.jpg" alt="authentic"/>
+			<a href="/assets/images/IMG_3473.jpg" data-size="3264x2448">
+				<img src="/assets/images/IMG_3473.jpg" alt="authentic"/>
 				<figure>Cold Cha Soba</figure>
 			</a>
-			<a href="assets/images/IMG_0310.jpg" data-size="552x414">
-				<img src="assets/images/IMG_0310.jpg" alt="georgetown ontario canada"/>
+			<a href="/assets/images/IMG_0310.jpg" data-size="552x414">
+				<img src="/assets/images/IMG_0310.jpg" alt="georgetown ontario canada"/>
 				<figure>Sashimi Plated on Ice</figure>
 			</a>
 		</div>
@@ -113,8 +113,8 @@ ordering: 1
 
 		<div class="col-md-4" id="follow-us">
 			<h2 class="heading">Follow Us</h2>
-			<a href="https://www.facebook.com/pages/category/Sushi-Restaurant/Imai-Japanese-Cuisine-919515488131536/" title="Follow us on Facebook">{% include icon.html icon="icon-facebook" %}</a>
-			<a href="https://instagram.com/imaijapanese/" title="Follow us on Instagram">{% include icon.html icon="icon-instagram" %}</a><br>
+			<a href="https://www.facebook.com/Imai-Japanese-Cuisine-919515488131536/" title="Follow us on Facebook" rel="noopener noreferrer" target="_blank">{% include icon.html icon="icon-facebook" %}</a>
+			<a href="https://instagram.com/imaijapanese/" title="Follow us on Instagram" rel="noopener noreferrer" target="_blank">{% include icon.html icon="icon-instagram" %}</a><br>
 		</div>
 
 	</div>
@@ -122,6 +122,6 @@ ordering: 1
 
 <section class="container" id="map">
 	<div class="row">
-		<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Map of Imai Japanese Cuisine" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d360.86982908650634!2d-79.925625!3d43.649029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b72ac88fd4ce7%3A0x7625ab0242c56b1d!2sImai%20Japanese%20Cuisine!5e0!3m2!1sen!2sus!4v1627796696525!5m2!1sen!2sus"></iframe>
+		<iframe class="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Map of Imai Japanese Cuisine" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d360.86982908650634!2d-79.925625!3d43.649029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b72ac88fd4ce7%3A0x7625ab0242c56b1d!2sImai%20Japanese%20Cuisine!5e0!3m2!1sen!2sus!4v1627796696525!5m2!1sen!2sus"></iframe>
 	</div>
 </section>

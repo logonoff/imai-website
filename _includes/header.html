@@ -3,8 +3,8 @@
 <a href="#main" class="skip-to-content">Skip to Content</a>
 
 <nav>
-	<a class="navbar-logo" href="{{ "index.html" | prepend: node.baseurl }}">
-		<img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | prepend: site.url }}"/>
+	<a class="navbar-logo" href="{{ "index.html" | absolute_url }}">
+		<img alt="Imai Japanese Cuisine logo" src="{{ "/assets/images/logo.png" | absolute_url }}"/>
 	</a>
 
 	<ul>
@@ -14,7 +14,7 @@
 			{% if node.ordering %}
 
 				<li {% if page.title == node.title %}class="current"{% endif %} >
-					<a href="{{ node.url | prepend: node.baseurl }}">
+					<a href="{{ node.url | absolute_url }}">
 						{{ node.title }}
 					</a>
 				</li>
@@ -22,11 +22,20 @@
 			{% endif %}
 		{% endfor %}
 
-		<li>
-			<a href="{{ "index.html" | prepend: site.baseurl }}#contact-us">
-				Contact
-			</a>
-		</li>
+		{% if page.title == "Home" %}
+			<li>
+				<a href="#contact-us">
+					Contact
+				</a>
+			</li>
+		{% else %}
+			<li>
+				<a href="{{ "index.html" | absolute_url }}#contact-us">
+					Contact
+				</a>
+			</li>
+		{% endif %}
+
 	</ul>
 
 	<div class="cta">
