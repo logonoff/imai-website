@@ -643,11 +643,9 @@ traditional-rolls:
 
   - name: Salmon & Avocado Roll
     price: $7.65
-    vegetarian: true
 
   - name: Tuna & Avocado Roll
     price: $8.65
-    vegetarian: true
 
   - name: Futomaki
     price: $8.95
@@ -693,11 +691,9 @@ hand-rolls:
 
   - name: Salmon & Avocado
     price: $5.75
-    vegetarian: true
 
   - name: Tuna & Avocado
     price: $6.55
-    vegetarian: true
 
   - name: California
     price: $4.95
