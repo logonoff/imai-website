@@ -18,10 +18,15 @@ sass:
 
 # Build settings
 exclude:
-  - package.json
-  - README.md
-  - CNAME
   - assets/sass
+  - build.bat
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - jekyll.bat
+  - package.json
+  - readme.md
+  - assets/js/tab.html
 
 # Jekyll SEO
 facebook:
@@ -38,7 +43,6 @@ seo:
 
 # Plugin settings
 plugins:
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
